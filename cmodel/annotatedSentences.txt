@@ -1,0 +1,8 @@
+Indian flag consist of  <START:color> orange <END> , white, green color
+Indian flag consist of orange, white,  <START:color> green <END>  color
+Indian flag consist  <START:color> of <END>  orange, white, green color
+Her eyes are  <START:color> blue <END>  in color
+I love  <START:color> grey <END>  Pink Flyod tshirt
+Indian flag consist of orange,  <START:color> white <END> , green color
+<START:color> red <END>  batman tshirt under 20$"
+I like  <START:color> black <END>  car

@@ -1,0 +1,10 @@
+red
+blue
+green
+black
+pink
+grey
+white
+slate
+orange
+silver
