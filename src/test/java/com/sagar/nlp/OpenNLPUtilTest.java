@@ -191,6 +191,27 @@ public class OpenNLPUtilTest {
         }
     }
     
+    
+    @Test
+    public void testColorFinder() {
+        String document = "green Flyod tshirt under 20$";
+        for (String sentence : extractor.segmentSentences(document)) {
+            System.out.println("sentence: " + sentence);
+            String[] tokens = extractor.tokenizeSentence(sentence);
+            Span[] spans = extractor.findColor(tokens);
+            for (Span span : spans) {
+                System.out.print("color: ");
+                for (int i = span.getStart(); i < span.getEnd(); i++) {
+                    System.out.print(tokens[i]);
+                    if (i < span.getEnd()) {
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+            }
+        }
+    }
+    
     public String posValue(String k) {
     	String value = k;
     	switch(k) {

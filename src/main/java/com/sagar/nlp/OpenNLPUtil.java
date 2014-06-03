@@ -37,7 +37,9 @@ public class OpenNLPUtil {
 
     private TokenNameFinderModel nameFinderModel;
     
-    private TokenNameFinderModel moenyFinderModel;
+    private TokenNameFinderModel moneyFinderModel;
+    
+    private TokenNameFinderModel colorFinderModel;
 
     private POSModel partOfSpeechModel;
 
@@ -48,6 +50,8 @@ public class OpenNLPUtil {
     private NameFinderME nameFinder;
     
     private NameFinderME moneyFinder;
+    // custom NER
+    private NameFinderME colorFinder;
 
     private POSTaggerME partOfSpeechTagger;
 
@@ -57,7 +61,8 @@ public class OpenNLPUtil {
 
         tokenizer = new TokenizerME(tokenizerModel);
         nameFinder = new NameFinderME(nameFinderModel);
-        moneyFinder = new NameFinderME(moenyFinderModel);
+        moneyFinder = new NameFinderME(moneyFinderModel);
+        colorFinder  = new NameFinderME(colorFinderModel);
         partOfSpeechTagger = new POSTaggerME(partOfSpeechModel);
         sentenceDetector = new SentenceDetectorME(sentenceModel);
     }
@@ -68,11 +73,13 @@ public class OpenNLPUtil {
         InputStream nameFinderModelStream = getInputStream("models/en-ner-organization.bin");
         InputStream moneyFinderModelStream = getInputStream("models/en-ner-money.bin");
         InputStream partOfSpeechModelStream = getInputStream("models/en-pos-maxent.bin");
-
+        InputStream colorFinderModelStream =  getInputStream("cmodel/colorModel.bin");
+        
         sentenceModel = new SentenceModel(sentenceModelStream);;
         tokenizerModel = new TokenizerModel(tokenizereModelStream);
         nameFinderModel = new TokenNameFinderModel(nameFinderModelStream);
-        moenyFinderModel = new TokenNameFinderModel(moneyFinderModelStream);
+        moneyFinderModel = new TokenNameFinderModel(moneyFinderModelStream);
+        colorFinderModel = new TokenNameFinderModel(colorFinderModelStream);
         partOfSpeechModel = new POSModel(partOfSpeechModelStream);
     }
 
@@ -91,6 +98,10 @@ public class OpenNLPUtil {
 
     public Span[] findNames(String[] tokens) {
         return nameFinder.find(tokens);
+    }
+    
+    public Span[] findColor(String[] tokens) {
+        return colorFinder.find(tokens);
     }
     
     public Span[] findMoney(String[] tokens) {

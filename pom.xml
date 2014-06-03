@@ -8,15 +8,15 @@
 	<name>OpenNLP Example</name>
 
 	<organization>
-		<name>Atilika Inc.</name>
-		<url>http://www.atilika.com</url>
+		<name>Testing</name>
+		<url>http://www.test-Sagar.com</url>
 	</organization>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.opennlp</groupId>
 			<artifactId>opennlp-tools</artifactId>
-			<version>1.5.2-incubating</version>
+			<version>1.5.3</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
