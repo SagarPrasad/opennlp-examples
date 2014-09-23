@@ -133,7 +133,7 @@ public class OpenNLPUtilTest {
     }
     
     @Test
-    public void testPartOfSpeech() {
+    public void testPartOfSpeech() throws NullPointerException {
         // Text from http://techcrunch.com/2013/04/25/strategy-analytics-q1-tablet-stats/ (© 2013 AOL Inc.)
         String document = "Use the folding wheels on both vehicles for the perfect high-speed pursuit in the air or on land.";
         //String document = "mens black shoe size 10";

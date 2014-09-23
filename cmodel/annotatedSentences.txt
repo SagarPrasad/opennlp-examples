@@ -1,8 +1,2030 @@
-Indian flag consist of  <START:color> orange <END> , white, green color
-Indian flag consist of orange, white,  <START:color> green <END>  color
-Indian flag consist  <START:color> of <END>  orange, white, green color
-Her eyes are  <START:color> blue <END>  in color
-I love  <START:color> grey <END>  Pink Flyod tshirt
-Indian flag consist of orange,  <START:color> white <END> , green color
-<START:color> red <END>  batman tshirt under 20$"
-I like  <START:color> black <END>  car
+titanium  <START:color> yellow <END>
+atomic  <START:color> tangerine <END>
+desert  <START:color> sand <END>
+<START:color> pink <END>  lace
+spanish  <START:color> sky blue <END>
+<START:color> baby blue <END>
+blanched  <START:color> almond <END>
+brunswick  <START:color> green <END>
+<START:color> space cadet <END>
+<START:color> vivid red <END>
+rich  <START:color> lilac <END>
+<START:color> lavender gray <END>
+<START:color> pistachio <END>
+<START:color> stil de grain yellow <END>
+dark  <START:color> green <END>
+<START:color> vivid yellow <END>
+I like  <START:color> black <END>  car.
+<START:color> red <END> -violet
+dark slate  <START:color> blue <END>
+medium  <START:color> candy apple red <END>
+<START:color> carnation pink <END>
+<START:color> cadet grey <END>
+<START:color> han purple <END>
+vivid  <START:color> orange <END>
+<START:color> orchid <END>
+<START:color> grizzly <END>
+<START:color> red <END> -brown
+dark blue- <START:color> gray <END>
+<START:color> selective yellow <END>
+<START:color> drab <END>
+vivid  <START:color> gamboge <END>
+<START:color> blue <END>  bell
+office  <START:color> green <END>
+pink  <START:color> pearl <END>
+electric  <START:color> cyan <END>
+deep  <START:color> sky blue <END>
+<START:color> deep fuchsia <END>
+<START:color> iris <END>
+<START:color> sky magenta <END>
+<START:color> bud green <END>
+<START:color> little boy blue <END>
+blast-off  <START:color> bronze <END>
+<START:color> turquoise <END>  blue
+<START:color> cerulean <END>  frost
+picton  <START:color> blue <END>
+<START:color> laser lemon <END>
+brick  <START:color> red <END>
+<START:color> orange peel <END>
+dande <START:color> lion <END>
+space  <START:color> cadet <END>
+deep green- <START:color> cyan <END>  turquoise
+<START:color> soap <END>
+<START:color> silver pink <END>
+<START:color> viridian <END>
+<START:color> dark electric blue <END>
+vivid  <START:color> crimson <END>
+<START:color> french pink <END>
+<START:color> old heliotrope <END>
+<START:color> papaya whip <END>
+<START:color> cherry <END>  blossom pink
+<START:color> corn <END> silk
+dark slate  <START:color> gray <END>
+s <START:color> kobe <END> loff
+dark  <START:color> tan <END> gerine
+<START:color> gray <END> -blue
+french  <START:color> raspberry <END>
+go  <START:color> green <END>
+quinacridone  <START:color> magenta <END>
+<START:color> chrome yellow <END>
+<START:color> celadon <END>  blue
+<START:color> deep champagne <END>
+<START:color> teal blue <END>
+<START:color> silver <END>
+north texas  <START:color> green <END>
+pale red- <START:color> violet <END>
+<START:color> halay? ?be <END>
+<START:color> green <END> -blue
+<START:color> orange-red <END>
+pale  <START:color> plum <END>
+<START:color> lemon chiffon <END>
+<START:color> nyanza <END>
+american  <START:color> rose <END>
+pale  <START:color> cornflower blue <END>
+<START:color> spanish pink <END>
+<START:color> pale silver <END>
+<START:color> wheat <END>
+light  <START:color> yellow <END>
+<START:color> moonstone blue <END>
+laser  <START:color> lemon <END>
+<START:color> silver sand <END>
+<START:color> dark cyan <END>
+medium slate  <START:color> blue <END>
+liver  <START:color> chestnut <END>
+<START:color> medium jungle green <END>
+<START:color> razzmic berry <END>
+<START:color> arsenic <END>
+lavender  <START:color> indigo <END>
+<START:color> slate <END>  blue
+<START:color> midnight blue <END>
+<START:color> french lime <END>
+<START:color> vivid amber <END>
+<START:color> chinese violet <END>
+<START:color> salmon pink <END>
+<START:color> tyrian purple <END>
+<START:color> deep red <END>
+<START:color> periwinkle <END>
+baby  <START:color> blue <END>  eyes
+<START:color> dark vanilla <END>
+japanese  <START:color> carmine <END>
+<START:color> flamingo pink <END>
+ruby  <START:color> red <END>
+<START:color> raspberry glace <END>
+<START:color> french rose <END>
+<START:color> pear <END>
+<START:color> laurel green <END>
+<START:color> magnolia <END>
+dark  <START:color> sea green <END>
+<START:color> asparagus <END>
+<START:color> pale violet <END> -red
+<START:color> fallow <END>
+lavender  <START:color> blue <END>
+<START:color> banana yellow <END>
+pale magenta- <START:color> pink <END>
+<START:color> baker-miller pink <END>
+<START:color> chamoisee <END>
+<START:color> burnt umber <END>
+french  <START:color> blue <END>
+<START:color> deep coffee <END>
+dark olive  <START:color> green <END>
+<START:color> medium ruby <END>
+<START:color> licorice <END>
+<START:color> office green <END>
+smoky  <START:color> black <END>
+<START:color> medium purple <END>
+<START:color> tuscan <END>  brown
+rose  <START:color> ebony <END>
+<START:color> tuscan red <END>
+<START:color> pale chestnut <END>
+deep  <START:color> champagne <END>
+<START:color> medium slate blue <END>
+old  <START:color> rose <END>
+<START:color> pale red-violet <END>
+mikado  <START:color> yellow <END>
+outrageous  <START:color> orange <END>
+medium vermi <START:color> lion <END>
+<START:color> lust <END>
+fuchsia  <START:color> rose <END>
+<START:color> dark chestnut <END>
+<START:color> light salmon <END>  pink
+acid  <START:color> green <END>
+paolo veronese  <START:color> green <END>
+desaturated  <START:color> cyan <END>
+pictorial  <START:color> carmine <END>
+<START:color> persian plum <END>
+light  <START:color> cyan <END>
+<START:color> rocket metallic <END>
+<START:color> antique ruby <END>
+<START:color> thulian pink <END>
+steel  <START:color> pink <END>
+medium electric  <START:color> blue <END>
+<START:color> deep carrot orange <END>
+<START:color> cg blue <END>
+majorelle  <START:color> blue <END>
+<START:color> black leather jacket <END>
+<START:color> light pastel purple <END>
+<START:color> university of california gold <END>
+rich  <START:color> black <END>
+<START:color> magenta-pink <END>
+<START:color> ultra pink <END>
+spanish  <START:color> green <END>
+bright  <START:color> cerulean <END>
+light  <START:color> carmine <END>  pink
+light  <START:color> gray <END> ish magenta
+lavender  <START:color> gray <END>
+<START:color> yellow <END> -green
+celadon  <START:color> green <END>
+<START:color> urobilin <END>
+dark  <START:color> turquoise <END>
+medium sky  <START:color> blue <END>
+deep  <START:color> jungle green <END>
+<START:color> deep koamaru <END>
+<START:color> very pale orange <END>
+<START:color> big <END>  dip o?ruby
+<START:color> rose <END>  vale
+cornell  <START:color> red <END>
+medium  <START:color> lavender magenta <END>
+<START:color> medium turquoise <END>
+<START:color> aero blue <END>
+<START:color> rufous <END>
+<START:color> rose ebony <END>
+<START:color> spanish orange <END>
+<START:color> amaranth <END>
+dark  <START:color> pastel blue <END>
+<START:color> mauve <END>  taupe
+<START:color> flame <END>
+<START:color> pale robin egg blue <END>
+<START:color> pink sherbet <END>
+<START:color> outer space <END>
+little boy  <START:color> blue <END>
+vivid  <START:color> orchid <END>
+<START:color> mint cream <END>
+<START:color> old rose <END>
+<START:color> spanish viridian <END>
+<START:color> I <END> ndian flag consist of white.
+illuminating  <START:color> emerald <END>
+<START:color> english violet <END>
+fern  <START:color> green <END>
+<START:color> sheen green <END>
+<START:color> paris green <END>
+<START:color> tea green <END>
+<START:color> imperial <END>  purple
+dark  <START:color> salmon <END>
+<START:color> pale gold <END>
+<START:color> tractor red <END>
+tea  <START:color> green <END>
+<START:color> pearly purple <END>
+rose  <START:color> taupe <END>
+<START:color> sapphire <END>  blue
+<START:color> copper red <END>
+medium red- <START:color> violet <END>
+deep  <START:color> aquamarine <END>
+pale  <START:color> turquoise <END>
+queen  <START:color> pink <END>
+<START:color> atomic tangerine <END>
+<START:color> antique brass <END>
+<START:color> russian violet <END>
+copper  <START:color> red <END>
+<START:color> vivid violet <END>
+cool  <START:color> grey <END>
+<START:color> sand <END> y taupe
+sky  <START:color> magenta <END>
+medium  <START:color> persian blue <END>
+<START:color> ash grey <END>
+purple  <START:color> taupe <END>
+<START:color> japanese violet <END>
+<START:color> amber <END>
+eton  <START:color> blue <END>
+purple  <START:color> navy <END>
+ultramarine  <START:color> blue <END>
+<START:color> bluebonnet <END>
+<START:color> ruddy pink <END>
+<START:color> desert <END>
+<START:color> cherry blossom pink <END>
+atomic  <START:color> tan <END> gerine
+<START:color> pastel violet <END>
+<START:color> glitter <END>
+guppie  <START:color> green <END>
+french  <START:color> rose <END>
+<START:color> grape <END>
+<START:color> tango pink <END>
+rusty  <START:color> red <END>
+vista  <START:color> blue <END>
+spanish  <START:color> carmine <END>
+deep  <START:color> pink <END>
+light  <START:color> sea green <END>
+<START:color> payne's grey <END>
+<START:color> mardi gras <END>
+<START:color> cadmium orange <END>
+yellow- <START:color> green <END>
+<START:color> june bud <END>
+sacramento state  <START:color> green <END>
+<START:color> jelly bean <END>
+<START:color> dark lavender <END>
+castleton  <START:color> green <END>
+<START:color> earth yellow <END>
+mellow  <START:color> yellow <END>
+cameo  <START:color> pink <END>
+<START:color> coral <END>
+light cornflower  <START:color> blue <END>
+<START:color> sapphire blue <END>
+<START:color> cyan-blue azure <END>
+amaranth  <START:color> pink <END>
+<START:color> imperial <END>  red
+<START:color> green-blue <END>
+<START:color> deep puce <END>
+<START:color> light deep pink <END>
+dark spring  <START:color> green <END>
+<START:color> royal fuchsia <END>
+congo  <START:color> pink <END>
+<START:color> fuchsia pink <END>
+<START:color> liver <END>
+<START:color> fluorescent orange <END>
+<START:color> flavescent <END>
+<START:color> jungle green <END>
+alizarin  <START:color> crimson <END>
+<START:color> new car <END>
+<START:color> cg red <END>
+green- <START:color> blue <END>
+<START:color> dark sky blue <END>
+deep  <START:color> cerise <END>
+willpower  <START:color> orange <END>
+<START:color> ucla gold <END>
+pink  <START:color> pear <END> l
+antique  <START:color> brass <END>
+<START:color> spanish gray <END>
+<START:color> wild strawberry <END>
+<START:color> ghost white <END>
+<START:color> lemon <END>  lime
+<START:color> cedar chest <END>
+<START:color> medium spring green <END>
+<START:color> rose <END>  gold
+<START:color> burlywood <END>
+sea  <START:color> green <END>
+<START:color> crimson red <END>
+cyan- <START:color> blue <END>  azure
+<START:color> ivory <END>
+myrtle  <START:color> green <END>
+<START:color> zomp <END>
+<START:color> slate blue <END>
+<START:color> cerulean frost <END>
+<START:color> mountain meadow <END>
+raspberry  <START:color> rose <END>
+<START:color> lava <END>
+<START:color> may green <END>
+<START:color> cal poly green <END>
+<START:color> yankees blue <END>
+medium  <START:color> aquamarine <END>
+<START:color> cerise <END>  pink
+<START:color> gray-asparagus <END>
+antique  <START:color> white <END>
+orchid  <START:color> pink <END>
+<START:color> acid green <END>
+light  <START:color> salmon <END>  pink
+<START:color> quartz <END>
+<START:color> pear <END> l aqua
+<START:color> lemon <END>  chiffon
+bright  <START:color> green <END>
+kenyan  <START:color> copper <END>
+<START:color> olive <END>  drab #7
+very  <START:color> light blue <END>
+vivid  <START:color> malachite <END>
+<START:color> cool black <END>
+<START:color> lemon <END>  meringue
+<START:color> celestial blue <END>
+<START:color> cardinal <END>
+<START:color> ochre <END>
+<START:color> light steel blue <END>
+<START:color> st. patrick's blue <END>
+medium  <START:color> violet <END> -red
+pullman  <START:color> green <END>
+<START:color> cambridge blue <END>
+turkish  <START:color> rose <END>
+<START:color> medium sea green <END>
+<START:color> sapphire <END>
+deep moss  <START:color> green <END>
+<START:color> blast-off bronze <END>
+<START:color> tumbleweed <END>
+<START:color> fuchsia <END>
+<START:color> wine <END>
+<START:color> blue-green <END>
+dark  <START:color> electric blue <END>
+la salle  <START:color> green <END>
+<START:color> crimson <END>  red
+steel  <START:color> blue <END>
+<START:color> french blue <END>
+<START:color> cyan cornflower blue <END>
+magic  <START:color> mint <END>
+<START:color> diamond <END>
+alabama  <START:color> crimson <END>
+salmon  <START:color> pink <END>
+shamrock  <START:color> green <END>
+sandy  <START:color> taupe <END>
+<START:color> jasper <END>
+<START:color> heliotrope <END>
+<START:color> red <END> -orange
+<START:color> ecru <END>
+beau  <START:color> blue <END>
+<START:color> up forest green <END>
+copper  <START:color> rose <END>
+vivid  <START:color> tan <END> gelo
+<START:color> deep carmine pink <END>
+rich  <START:color> brilliant lavender <END>
+blue- <START:color> magenta <END>  violet
+turquoise  <START:color> green <END>
+<START:color> pink <END>  sherbet
+<START:color> french raspberry <END>
+blue-magenta  <START:color> violet <END>
+burnt  <START:color> orange <END>
+cyan  <START:color> corn <END> flower blue
+<START:color> seal brown <END>
+<START:color> teal <END>  deer
+<START:color> sepia <END>
+falu  <START:color> red <END>
+olive  <START:color> drab <END>  #7
+<START:color> russet <END>
+<START:color> lavender pink <END>
+<START:color> deep carmine <END>  pink
+<START:color> blue-violet <END>
+heliotrope  <START:color> gray <END>
+very pale  <START:color> orange <END>
+<START:color> blue <END>
+<START:color> golden brown <END>
+cornflower  <START:color> blue <END>
+air superiority  <START:color> blue <END>
+dark candy apple  <START:color> red <END>
+<START:color> pale lavender <END>
+rose  <START:color> quartz <END>
+light steel  <START:color> blue <END>
+<START:color> medium champagne <END>
+<START:color> smoke <END>
+<START:color> pearl <END>
+<START:color> utah crimson <END>
+<START:color> silver lake blue <END>
+<START:color> cadet <END>  grey
+light  <START:color> gray <END>
+<START:color> medium tuscan red <END>
+<START:color> french wine <END>
+medium  <START:color> aqua <END> marine
+<START:color> apricot <END>
+<START:color> dark olive green <END>
+<START:color> indian red <END>
+golden  <START:color> yellow <END>
+Indian flag consist of  <START:color> orange <END> .
+<START:color> violet-red <END>
+<START:color> deep jungle green <END>
+android  <START:color> green <END>
+<START:color> otter brown <END>
+<START:color> opera mauve <END>
+light  <START:color> coral <END>
+<START:color> green-yellow <END>
+moonstone  <START:color> blue <END>
+dark  <START:color> coral <END>
+medium  <START:color> taupe <END>
+<START:color> puce <END>
+<START:color> pink raspberry <END>
+dark sky  <START:color> blue <END>
+deep  <START:color> chestnut <END>
+cherry blossom  <START:color> pink <END>
+<START:color> blond <END>
+<START:color> medium taupe <END>
+<START:color> gold fusion <END>
+s <START:color> cream <END> in' green
+<START:color> carmine <END>  pink
+<START:color> lincoln green <END>
+light  <START:color> fuchsia <END>  pink
+dark  <START:color> goldenrod <END>
+<START:color> raspberry <END>  glace
+<START:color> fuchsia purple <END>
+<START:color> yellow <END>  rose
+<START:color> teal green <END>
+<START:color> lavender blue <END>
+resolution  <START:color> blue <END>
+<START:color> upsdell red <END>
+<START:color> dollar bill <END>
+<START:color> corn <END>
+<START:color> beige <END>
+pale  <START:color> carmine <END>
+<START:color> vivid orange peel <END>
+<START:color> olive drab #7 <END>
+<START:color> mellow apricot <END>
+<START:color> sonic silver <END>
+spanish  <START:color> red <END>
+cg  <START:color> red <END>
+<START:color> olive <END>
+vivid  <START:color> tangelo <END>
+vivid  <START:color> orange <END>  peel
+<START:color> persimmon <END>
+deep  <START:color> fuchsia <END>
+palatinate  <START:color> blue <END>
+<START:color> folly <END>
+<START:color> candy apple red <END>
+light  <START:color> orchid <END>
+<START:color> fandango <END>  pink
+dark  <START:color> midnight blue <END>
+<START:color> medium sky blue <END>
+<START:color> olivine <END>
+<START:color> old lace <END>
+light slate  <START:color> gray <END>
+<START:color> light salmon <END>
+<START:color> shadow <END>  blue
+<START:color> bitter lemon <END>
+<START:color> rose red <END>
+deep  <START:color> coffee <END>
+vivid lime  <START:color> green <END>
+<START:color> antique white <END>
+<START:color> peach <END>  puff
+<START:color> rusty red <END>
+star command  <START:color> blue <END>
+persian  <START:color> red <END>
+<START:color> rose <END>  bonbon
+<START:color> super pink <END>
+<START:color> pastel blue <END>
+indian  <START:color> yellow <END>
+light  <START:color> goldenrod yellow <END>
+<START:color> pale brown <END>
+<START:color> lavender purple <END>
+<START:color> pale magenta-pink <END>
+<START:color> snow <END>
+<START:color> bright lilac <END>
+<START:color> mauve <END> lous
+light carmine  <START:color> pink <END>
+<START:color> pale copper <END>
+baker-miller  <START:color> pink <END>
+italian sky  <START:color> blue <END>
+pale  <START:color> spring bud <END>
+<START:color> rust <END>
+<START:color> electric blue <END>
+<START:color> I <END> ndian flag consist of orange.
+<START:color> ultra red <END>
+<START:color> light brilliant red <END>
+<START:color> purple mountain majesty <END>
+<START:color> piggy pink <END>
+<START:color> english lavender <END>
+<START:color> old silver <END>
+<START:color> teal <END>  green
+<START:color> fuchsia <END>  pink
+<START:color> bright green <END>
+candy apple  <START:color> red <END>
+<START:color> peach <END>
+crimson  <START:color> red <END>
+<START:color> rose <END>  quartz
+<START:color> rosso corsa <END>
+<START:color> anti-flash white <END>
+<START:color> nadeshiko pink <END>
+<START:color> stil <END>  de grain yellow
+deep  <START:color> taupe <END>
+<START:color> fuchsia <END>  rose
+mountbatten  <START:color> pink <END>
+spring  <START:color> green <END>
+<START:color> deep tuscan red <END>
+<START:color> grullo <END>
+<START:color> lemon <END>  yellow
+dodger  <START:color> blue <END>
+spanish  <START:color> viridian <END>
+mango  <START:color> tan <END> go
+<START:color> coconut <END>
+<START:color> spiro disco ball <END>
+<START:color> ruddy brown <END>
+deep  <START:color> moss green <END>
+light sea  <START:color> green <END>
+<START:color> mikado yellow <END>
+fluorescent  <START:color> pink <END>
+fandango  <START:color> pink <END>
+<START:color> red-orange <END>
+deep jungle  <START:color> green <END>
+<START:color> royal azure <END>
+<START:color> pastel yellow <END>
+<START:color> vegas gold <END>
+<START:color> deep maroon <END>
+<START:color> shadow blue <END>
+<START:color> wild watermelon <END>
+<START:color> dark magenta <END>
+<START:color> ultramarine <END>  blue
+<START:color> harvest gold <END>
+<START:color> lemon <END>  curry
+dark  <START:color> moss green <END>
+<START:color> jasmine <END>
+very pale  <START:color> yellow <END>
+electric  <START:color> yellow <END>
+<START:color> castleton green <END>
+pale violet- <START:color> red <END>
+french  <START:color> sky blue <END>
+<START:color> I <END>  like black car.
+<START:color> carmine pink <END>
+<START:color> cerulean blue <END>
+<START:color> eggplant <END>
+<START:color> liseran purple <END>
+persian  <START:color> plum <END>
+<START:color> bright maroon <END>
+<START:color> spanish carmine <END>
+<START:color> electric lavender <END>
+<START:color> french violet <END>
+<START:color> charcoal <END>  bed sheets are fine.
+<START:color> big dip o?ruby <END>
+<START:color> champagne <END>
+<START:color> hollywood cerise <END>
+deep  <START:color> carrot orange <END>
+<START:color> glaucous <END>
+sky  <START:color> blue <END>
+<START:color> heliotrope magenta <END>
+<START:color> twilight lavender <END>
+<START:color> ceil <END>
+<START:color> irresistible <END>
+alloy  <START:color> orange <END>
+<START:color> light cyan <END>
+dark  <START:color> byzantium <END>
+<START:color> rose pink <END>
+vivid  <START:color> tan <END> gerine
+shimmering  <START:color> blush <END>
+<START:color> medium spring bud <END>
+<START:color> feldspar <END>
+<START:color> light orchid <END>
+<START:color> coral <END>  red
+italian  <START:color> sky blue <END>
+<START:color> very pale yellow <END>
+<START:color> ua red <END>
+bright  <START:color> pink <END>
+sapphire  <START:color> blue <END>
+<START:color> tan <END> gerine
+<START:color> pale cyan <END>
+ruddy  <START:color> pink <END>
+dark  <START:color> cyan <END>
+<START:color> rose gold <END>
+<START:color> ruby red <END>
+light  <START:color> fuchsia pink <END>
+super  <START:color> pink <END>
+hunter  <START:color> green <END>
+<START:color> dartmouth green <END>
+french  <START:color> puce <END>
+<START:color> strawberry <END>
+safety  <START:color> orange <END>
+<START:color> eggshell <END>
+<START:color> wild blue yonder <END>
+<START:color> bittersweet shimmer <END>
+<START:color> mint <END>  cream
+canary  <START:color> yellow <END>
+candy  <START:color> pink <END>
+<START:color> spring green <END>
+<START:color> hot magenta <END>
+<START:color> turquoise blue <END>
+pale  <START:color> chestnut <END>
+midnight  <START:color> blue <END>
+alice  <START:color> blue <END>
+carnation  <START:color> pink <END>
+<START:color> magenta haze <END>
+dim  <START:color> gray <END>
+ua  <START:color> red <END>
+deep  <START:color> carmine <END>  pink
+<START:color> red <END>  devil
+<START:color> platinum <END>
+<START:color> copper penny <END>
+deep  <START:color> magenta <END>
+deep  <START:color> carmine pink <END>
+<START:color> deep moss green <END>
+<START:color> tropical rain forest <END>
+<START:color> wine dregs <END>
+<START:color> razzle dazzle rose <END>
+<START:color> mango tango <END>
+deep  <START:color> tuscan red <END>
+<START:color> aureolin <END>
+blue- <START:color> gray <END>
+french  <START:color> mauve <END>
+<START:color> vivid mulberry <END>
+electric  <START:color> ultramarine <END>
+<START:color> harlequin <END>
+<START:color> lavender indigo <END>
+<START:color> vivid raspberry <END>
+dark  <START:color> raspberry <END>
+<START:color> rackley <END>
+<START:color> purpureus <END>
+<START:color> cyan cobalt blue <END>
+<START:color> jordy blue <END>
+mode  <START:color> beige <END>
+<START:color> red devil <END>
+dark brown- <START:color> tangelo <END>
+french  <START:color> violet <END>
+dark  <START:color> chestnut <END>
+<START:color> dark brown <END>
+<START:color> cadmium yellow <END>
+bright  <START:color> navy <END>  blue
+naples  <START:color> yellow <END>
+light red  <START:color> ochre <END>
+<START:color> raspberry rose <END>
+vivid  <START:color> cerise <END>
+light goldenrod  <START:color> yellow <END>
+<START:color> sand <END> storm
+pastel  <START:color> orange <END>
+<START:color> electric violet <END>
+<START:color> boysenberry <END>
+<START:color> black <END>
+<START:color> light sky blue <END>
+egyptian  <START:color> blue <END>
+<START:color> dark pastel green <END>
+<START:color> phthalo blue <END>
+red batman tshirt  <START:color> under <END>  20$".
+<START:color> bright lavender <END>
+usc  <START:color> cardinal <END>
+<START:color> sand <END>
+<START:color> aquamarine <END>
+<START:color> donkey brown <END>
+<START:color> caput mortuum <END>
+<START:color> lavender blush <END>
+<START:color> gray <END> -asparagus
+<START:color> portland orange <END>
+<START:color> vivid lime green <END>
+<START:color> charm pink <END>
+<START:color> pineapple <END>
+<START:color> new york pink <END>
+<START:color> spanish sky blue <END>
+<START:color> b'dazzled blue <END>
+msu  <START:color> green <END>
+tango  <START:color> pink <END>
+pearl  <START:color> aqua <END>
+chinese  <START:color> red <END>
+burnt  <START:color> sienna <END>
+<START:color> citron <END>
+<START:color> rose <END>  pink
+dark  <START:color> magenta <END>
+<START:color> warm black <END>
+true  <START:color> blue <END>
+<START:color> fire engine red <END>
+r <START:color> ube <END> r
+pale  <START:color> violet <END> -red
+<START:color> rose quartz <END>
+<START:color> tan <END>
+<START:color> dark jungle green <END>
+<START:color> sand <END>  dune
+<START:color> taupe gray <END>
+<START:color> cinereous <END>
+carmine  <START:color> red <END>
+Indian flag consist of  <START:color> green <END>  color.
+medium  <START:color> electric blue <END>
+<START:color> peridot <END>
+dark  <START:color> slate <END>  gray
+amaranth  <START:color> red <END>
+medium violet- <START:color> red <END>
+<START:color> catalina blue <END>
+<START:color> wisteria <END>
+kelly  <START:color> green <END>
+lavender  <START:color> pink <END>
+selective  <START:color> yellow <END>
+raw  <START:color> umber <END>
+russian  <START:color> violet <END>
+<START:color> african violet <END>
+<START:color> deep green-cyan turquoise <END>
+pale  <START:color> magenta-pink <END>
+<START:color> mordant red 19 <END>
+<START:color> pale violet-red <END>
+persian  <START:color> green <END>
+<START:color> sunset <END>
+<START:color> robin egg blue <END>
+pink- <START:color> orange <END>
+<START:color> carolina blue <END>
+vivid  <START:color> mulberry <END>
+<START:color> electric crimson <END>
+mellow  <START:color> apricot <END>
+<START:color> french lilac <END>
+<START:color> vivid cerise <END>
+wild  <START:color> orchid <END>
+<START:color> neon fuchsia <END>
+thulian  <START:color> pink <END>
+cool  <START:color> black <END>
+generic  <START:color> viridian <END>
+<START:color> cordovan <END>
+light  <START:color> cornflower blue <END>
+<START:color> magenta <END>  haze
+<START:color> pale carmine <END>
+<START:color> vivid crimson <END>
+<START:color> neon carrot <END>
+english  <START:color> violet <END>
+<START:color> smoky topaz <END>
+<START:color> silver <END>  chalice
+<START:color> inchworm <END>
+<START:color> electric lime <END>
+<START:color> windsor tan <END>
+<START:color> blush <END>
+mexican  <START:color> pink <END>
+<START:color> tiger's eye <END>
+<START:color> spanish red <END>
+<START:color> bright cerulean <END>
+coral  <START:color> red <END>
+<START:color> harvard crimson <END>
+<START:color> pale cerulean <END>
+<START:color> misty rose <END>
+light  <START:color> pastel purple <END>
+<START:color> rose vale <END>
+dark pastel  <START:color> red <END>
+neon  <START:color> fuchsia <END>
+medium persian  <START:color> blue <END>
+<START:color> ruby <END>
+lavender  <START:color> rose <END>
+<START:color> yellow orange <END>
+<START:color> light taupe <END>
+<START:color> baby pink <END>
+<START:color> topaz <END>
+green- <START:color> yellow <END>
+dark midnight  <START:color> blue <END>
+<START:color> deep lilac <END>
+<START:color> granny smith apple <END>
+<START:color> brown-nose <END>
+<START:color> carrot orange <END>
+brink  <START:color> pink <END>
+<START:color> tuscan <END>  red
+<START:color> electric ultramarine <END>
+cadmium  <START:color> orange <END>
+<START:color> gray-blue <END>
+<START:color> pink <END>  pearl
+pale  <START:color> cerulean <END>
+<START:color> aurometalsaurus <END>
+persian  <START:color> orange <END>
+<START:color> dodger blue <END>
+<START:color> verdigris <END>
+<START:color> timberwolf <END>
+medium  <START:color> spring green <END>
+hooker's  <START:color> green <END>
+<START:color> magenta <END> -pink
+lavender  <START:color> magenta <END>
+<START:color> capri <END>
+<START:color> orange <END> -red
+<START:color> ruber <END>
+vivid sky  <START:color> blue <END>
+medium  <START:color> blue <END>
+dark  <START:color> sky blue <END>
+<START:color> light sea green <END>
+princeton  <START:color> orange <END>
+cadmium  <START:color> yellow <END>
+<START:color> cornsilk <END>
+<START:color> indigo <END>
+<START:color> sand dune <END>
+<START:color> bronze <END>  yellow
+<START:color> dutch white <END>
+french  <START:color> pink <END>
+<START:color> electric yellow <END>
+<START:color> bistre <END>
+<START:color> blanched almond <END>
+<START:color> unbleached silk <END>
+<START:color> violet-blue <END>
+<START:color> pale gold <END> enrod
+<START:color> purple pizzazz <END>
+<START:color> floral white <END>
+vivid  <START:color> tangerine <END>
+<START:color> celadon <END>
+ball  <START:color> blue <END>
+<START:color> ball blue <END>
+<START:color> davy's grey <END>
+<START:color> daffodil <END>
+<START:color> columbia blue <END>
+very light  <START:color> blue <END>
+<START:color> sea blue <END>
+<START:color> cyan <END>  cobalt blue
+<START:color> lemon <END>
+light  <START:color> grayish magenta <END>
+ultra  <START:color> red <END>
+eerie  <START:color> black <END>
+baby  <START:color> blue <END>
+<START:color> wenge <END>
+pastel  <START:color> violet <END>
+<START:color> tangerine <END>  yellow
+<START:color> honeydew <END>
+<START:color> pastel pink <END>
+magenta- <START:color> pink <END>
+tele <START:color> magenta <END>
+<START:color> camouflage green <END>
+<START:color> prussian blue <END>
+napier  <START:color> green <END>
+<START:color> blue <END>  yonder
+<START:color> carmine <END>  red
+<START:color> brilliant lavender <END>
+anti-flash  <START:color> white <END>
+<START:color> vivid red-tangelo <END>
+<START:color> ultramarine blue <END>
+vivid  <START:color> vermilion <END>
+<START:color> coquelicot <END>
+<START:color> beaver <END>
+mordant  <START:color> red <END>  19
+violet- <START:color> blue <END>
+<START:color> stizza <END>
+<START:color> cadmium green <END>
+<START:color> pale magenta <END>
+<START:color> cream <END>
+utah  <START:color> crimson <END>
+wild water <START:color> melon <END>
+<START:color> orchid <END>  pink
+jordy  <START:color> blue <END>
+<START:color> orchid pink <END>
+<START:color> dark lava <END>
+<START:color> bronze <END>
+<START:color> venetian red <END>
+light  <START:color> sky blue <END>
+<START:color> cornflower blue <END>
+indian  <START:color> red <END>
+<START:color> dark raspberry <END>
+<START:color> zaffre <END>
+chinese  <START:color> violet <END>
+medium spring  <START:color> green <END>
+<START:color> blue-gray <END>
+bright  <START:color> turquoise <END>
+<START:color> royal blue <END>
+<START:color> tenn? <END>
+<START:color> spicy mix <END>
+<START:color> turquoise green <END>
+<START:color> heart gold <END>
+<START:color> battleship grey <END>
+bright  <START:color> ube <END>
+<START:color> tan <END> gelo
+<START:color> screamin' green <END>
+<START:color> pale green <END>
+<START:color> dark brown-tangelo <END>
+<START:color> spanish green <END>
+french  <START:color> plum <END>
+<START:color> copper <END>  penny
+gray- <START:color> asparagus <END>
+classic  <START:color> rose <END>
+<START:color> navy <END>  purple
+<START:color> bittersweet <END>
+very light  <START:color> malachite green <END>
+orioles  <START:color> orange <END>
+<START:color> dark moss green <END>
+<START:color> meat brown <END>
+<START:color> dark salmon <END>
+french  <START:color> beige <END>
+<START:color> cyan <END> -blue azure
+<START:color> light thulian pink <END>
+<START:color> rose <END>  taupe
+<START:color> star command blue <END>
+<START:color> dark sea green <END>
+<START:color> deep ruby <END>
+<START:color> mountbatten pink <END>
+<START:color> dark puce <END>
+dark  <START:color> olive <END>  green
+viridian  <START:color> green <END>
+<START:color> dim gray <END>
+medium  <START:color> slate <END>  blue
+old  <START:color> silver <END>
+pale  <START:color> robin egg blue <END>
+light fuchsia  <START:color> pink <END>
+<START:color> dark blue <END>
+<START:color> roman silver <END>
+medium  <START:color> spring bud <END>
+<START:color> smitten <END>
+<START:color> dark byzantium <END>
+<START:color> wood brown <END>
+<START:color> giants orange <END>
+<START:color> sand <END> y brown
+<START:color> cerise <END>
+dark moss  <START:color> green <END>
+<START:color> lavender rose <END>
+<START:color> deep green <END>
+<START:color> metallic seaweed <END>
+light deep  <START:color> pink <END>
+silver lake  <START:color> blue <END>
+dark  <START:color> scarlet <END>
+boston university  <START:color> red <END>
+<START:color> dark candy apple red <END>
+rifle  <START:color> green <END>
+<START:color> tiffany blue <END>
+electric  <START:color> violet <END>
+ua  <START:color> blue <END>
+<START:color> blue bell <END>
+<START:color> amaranth <END>  purple
+<START:color> celadon <END>  green
+carolina  <START:color> blue <END>
+<START:color> honolulu blue <END>
+ou  <START:color> crimson <END>  red
+deep  <START:color> aqua <END> marine
+<START:color> viridian <END>  green
+cobalt  <START:color> blue <END>
+<START:color> tuscany <END>
+<START:color> sandy taupe <END>
+<START:color> pale violet <END>
+pale  <START:color> blue <END>
+aero  <START:color> blue <END>
+<START:color> french mauve <END>
+<START:color> red <END>  batman tshirt under 20$".
+<START:color> mulberry <END>
+<START:color> blue <END> -green
+barbie  <START:color> pink <END>
+deep green-cyan  <START:color> turquoise <END>
+<START:color> blue yonder <END>
+light  <START:color> corn <END> flower blue
+pale  <START:color> pink <END>
+pakistan  <START:color> green <END>
+<START:color> illuminating emerald <END>
+<START:color> saddle brown <END>
+<START:color> moccasin <END>
+up forest  <START:color> green <END>
+opera  <START:color> mauve <END>
+light  <START:color> thulian pink <END>
+pale  <START:color> aqua <END>
+<START:color> corn <END> flower blue
+vivid  <START:color> lime green <END>
+<START:color> persian orange <END>
+<START:color> beau blue <END>
+<START:color> dirt <END>
+<START:color> boston university red <END>
+<START:color> heliotrope gray <END>
+I love  <START:color> grey <END>  Pink Flyod tshirt.
+<START:color> bittersweet <END>  shimmer
+persian  <START:color> blue <END>
+<START:color> ube <END>
+<START:color> cherry <END>
+<START:color> dark pink <END>
+<START:color> blue <END> -magenta violet
+<START:color> blue <END> bonnet
+light  <START:color> crimson <END>
+light  <START:color> green <END>
+<START:color> fuchsia <END>  purple
+banana  <START:color> yellow <END>
+<START:color> persian red <END>
+<START:color> rose madder <END>
+rose  <START:color> red <END>
+new york  <START:color> pink <END>
+very light malachite  <START:color> green <END>
+<START:color> flirt <END>
+<START:color> lavender mist <END>
+deep  <START:color> puce <END>
+<START:color> dark pastel purple <END>
+<START:color> ruddy <END>  pink
+st. patrick's  <START:color> blue <END>
+tangerine  <START:color> yellow <END>
+<START:color> tan <END> gerine yellow
+light  <START:color> cobalt blue <END>
+pale robin egg  <START:color> blue <END>
+<START:color> spanish crimson <END>
+<START:color> medium red-violet <END>
+<START:color> cyan <END>
+<START:color> citrine <END>
+<START:color> rose bonbon <END>
+<START:color> medium candy apple red <END>
+<START:color> islamic green <END>
+spanish sky  <START:color> blue <END>
+pine  <START:color> green <END>
+<START:color> deep pink <END>
+<START:color> deep mauve <END>
+<START:color> dark khaki <END>
+<START:color> japanese indigo <END>
+rubine  <START:color> red <END>
+brilliant  <START:color> rose <END>
+pastel  <START:color> yellow <END>
+<START:color> bubbles <END>
+<START:color> kelly green <END>
+<START:color> dark tangerine <END>
+light  <START:color> taupe <END>
+burnt  <START:color> umber <END>
+<START:color> solid pink <END>
+pale  <START:color> violet <END>
+<START:color> barbie pink <END>
+<START:color> vista blue <END>
+<START:color> cyber grape <END>
+light  <START:color> medium orchid <END>
+<START:color> almond <END>
+cadmium  <START:color> red <END>
+<START:color> dark goldenrod <END>
+rich electric  <START:color> blue <END>
+medium  <START:color> sea green <END>
+yankees  <START:color> blue <END>
+<START:color> dark medium gray <END>
+<START:color> tan <END> go pink
+<START:color> claret <END>
+moss  <START:color> green <END>
+<START:color> cerulean <END>  blue
+<START:color> jade <END>
+dark  <START:color> red <END>
+japanese  <START:color> indigo <END>
+army  <START:color> green <END>
+shadow  <START:color> blue <END>
+green- <START:color> cyan <END>
+<START:color> alizarin crimson <END>
+<START:color> candy pink <END>
+persian  <START:color> pink <END>
+<START:color> imperial blue <END>
+roast  <START:color> coffee <END>
+<START:color> wild orchid <END>
+ku  <START:color> crimson <END>
+<START:color> denim <END>
+<START:color> canary yellow <END>
+pale  <START:color> magenta <END> -pink
+spanish  <START:color> pink <END>
+light  <START:color> salmon <END>
+<START:color> pastel orange <END>
+heliotrope  <START:color> magenta <END>
+pale  <START:color> magenta <END>
+prussian  <START:color> blue <END>
+vivid  <START:color> raspberry <END>
+light  <START:color> carmine pink <END>
+dark jungle  <START:color> green <END>
+<START:color> kobi <END>
+<START:color> rifle green <END>
+oxford  <START:color> blue <END>
+<START:color> imperial purple <END>
+<START:color> fandango pink <END>
+<START:color> red-purple <END>
+<START:color> french sky blue <END>
+<START:color> orioles orange <END>
+Her eyes are  <START:color> blue <END>  in color.
+<START:color> shadow <END>
+<START:color> bondi blue <END>
+dark  <START:color> slate blue <END>
+spanish  <START:color> gray <END>
+harlequin  <START:color> green <END>
+<START:color> brunswick green <END>
+<START:color> tangerine yellow <END>
+medium  <START:color> ruby <END>
+<START:color> india green <END>
+l <START:color> umber <END>
+medium  <START:color> tuscan <END>  red
+deep  <START:color> saffron <END>
+razzle dazzle  <START:color> rose <END>
+<START:color> yale blue <END>
+<START:color> deep aquamarine <END>
+<START:color> bone <END>
+robin egg  <START:color> blue <END>
+antique  <START:color> bronze <END>
+dogwood  <START:color> rose <END>
+mint  <START:color> green <END>
+<START:color> mindaro <END>
+spanish  <START:color> violet <END>
+<START:color> quinacridone magenta <END>
+<START:color> spartan crimson <END>
+<START:color> ucla blue <END>
+medium  <START:color> turquoise <END>
+<START:color> I <END>  love grey Pink Flyod tshirt.
+<START:color> go green <END>
+cadmium  <START:color> green <END>
+<START:color> pear <END> ly purple
+<START:color> true blue <END>
+<START:color> rich black <END>
+fluorescent  <START:color> yellow <END>
+dark  <START:color> pastel red <END>
+<START:color> blueberry <END>
+<START:color> deep taupe <END>
+<START:color> fulvous <END>
+deep sky  <START:color> blue <END>
+<START:color> vivid orange <END>  peel
+dark medium  <START:color> gray <END>
+dartmouth  <START:color> green <END>
+medium lavender  <START:color> magenta <END>
+<START:color> hunter green <END>
+<START:color> raw umber <END>
+<START:color> american rose <END>
+warm  <START:color> black <END>
+medium  <START:color> slate blue <END>
+dark  <START:color> orchid <END>
+<START:color> vivid tangelo <END>
+<START:color> medium blue <END>
+<START:color> dark scarlet <END>
+blue- <START:color> green <END>
+stil de grain  <START:color> yellow <END>
+big dip o? <START:color> ruby <END>
+<START:color> metallic sunburst <END>
+dark  <START:color> slate gray <END>
+<START:color> rust <END> y red
+<START:color> vivid sky blue <END>
+<START:color> cosmic latte <END>
+<START:color> medium persian blue <END>
+<START:color> pale magenta <END> -pink
+<START:color> razzle <END>  dazzle rose
+<START:color> rosewood <END>
+bottle  <START:color> green <END>
+<START:color> pale goldenrod <END>
+<START:color> desert <END>  sand
+<START:color> pastel magenta <END>
+<START:color> kombu green <END>
+smoky  <START:color> topaz <END>
+field  <START:color> drab <END>
+<START:color> dark slate gray <END>
+<START:color> salmon <END>
+vivid  <START:color> amber <END>
+<START:color> purple taupe <END>
+deep  <START:color> green <END>
+<START:color> cornell red <END>
+cyan  <START:color> azure <END>
+<START:color> fashion fuchsia <END>
+<START:color> purple navy <END>
+dark  <START:color> pink <END>
+<START:color> sinopia <END>
+pale  <START:color> red <END> -violet
+<START:color> charcoal <END>
+phthalo  <START:color> blue <END>
+<START:color> dark coral <END>
+<START:color> blue sapphire <END>
+light  <START:color> french beige <END>
+<START:color> kenyan copper <END>
+<START:color> taupe <END>
+<START:color> bistre <END>  brown
+china  <START:color> rose <END>
+<START:color> light moss green <END>
+<START:color> silver chalice <END>
+bitter  <START:color> lemon <END>
+<START:color> skobeloff <END>
+<START:color> cool grey <END>
+pastel  <START:color> magenta <END>
+<START:color> pearl <END>  aqua
+<START:color> vivid gamboge <END>
+catalina  <START:color> blue <END>
+<START:color> usc cardinal <END>
+kombu  <START:color> green <END>
+<START:color> light coral <END>
+<START:color> sap green <END>
+<START:color> school bus yellow <END>
+<START:color> bangladesh green <END>
+bulgarian  <START:color> rose <END>
+medium  <START:color> sky blue <END>
+deep carmine  <START:color> pink <END>
+<START:color> ufo green <END>
+<START:color> brink pink <END>
+baby  <START:color> pink <END>
+very light  <START:color> tan <END> gelo
+<START:color> puce <END>  red
+international klein  <START:color> blue <END>
+ou crimson  <START:color> red <END>
+royal  <START:color> yellow <END>
+barn  <START:color> red <END>
+<START:color> feldgrau <END>
+<START:color> air superiority blue <END>
+<START:color> apple green <END>
+<START:color> popstar <END>
+<START:color> brick red <END>
+<START:color> persian green <END>
+<START:color> la salle green <END>
+pink  <START:color> raspberry <END>
+<START:color> fluorescent pink <END>
+<START:color> amazon <END>
+<START:color> indigo dye <END>
+red- <START:color> violet <END>
+<START:color> harlequin <END>  green
+<START:color> arylide yellow <END>
+<START:color> sunset orange <END>
+<START:color> eton blue <END>
+<START:color> cadet <END>  blue
+paradise  <START:color> pink <END>
+english  <START:color> green <END>
+<START:color> white smoke <END>
+<START:color> light carmine pink <END>
+<START:color> vanilla <END>  ice
+imperial  <START:color> red <END>
+bangladesh  <START:color> green <END>
+<START:color> guppie green <END>
+<START:color> stormcloud <END>
+<START:color> turkish rose <END>
+royal  <START:color> blue <END>
+<START:color> pale aqua <END>
+teal  <START:color> green <END>
+<START:color> dark green <END>
+teal  <START:color> deer <END>
+<START:color> peach <END> -yellow
+caribbean  <START:color> green <END>
+<START:color> taupe <END>  gray
+<START:color> rose <END>  red
+<START:color> pale pink <END>
+<START:color> light blue <END>
+<START:color> dark pastel red <END>
+<START:color> pomp and power <END>
+china  <START:color> pink <END>
+<START:color> light gray <END>
+spanish  <START:color> bistre <END>
+deep  <START:color> green-cyan <END>  turquoise
+silver  <START:color> pink <END>
+<START:color> deep magenta <END>
+dark  <START:color> tan <END>
+<START:color> rich carmine <END>
+dark  <START:color> blue <END>
+<START:color> cocoa brown <END>
+hollywood  <START:color> cerise <END>
+<START:color> light pink <END>
+<START:color> keppel <END>
+<START:color> prune <END>
+<START:color> copper rose <END>
+<START:color> lumber <END>
+<START:color> usc gold <END>
+<START:color> vanilla <END>
+mauve  <START:color> taupe <END>
+<START:color> languid lavender <END>
+<START:color> pink lace <END>
+<START:color> fresh air <END>
+medium  <START:color> champagne <END>
+vivid  <START:color> sky blue <END>
+<START:color> willpower orange <END>
+<START:color> old gold <END>
+tickle me  <START:color> pink <END>
+<START:color> dark blue <END> -gray
+flamingo  <START:color> pink <END>
+<START:color> dark slate blue <END>
+<START:color> dogwood rose <END>
+<START:color> celeste <END>
+<START:color> baby powder <END>
+<START:color> cadmium red <END>
+arylide  <START:color> yellow <END>
+<START:color> pale blue <END>
+roman  <START:color> silver <END>
+<START:color> pine green <END>
+<START:color> limerick <END>
+<START:color> lemon curry <END>
+<START:color> banana mania <END>
+<START:color> university of tennessee orange <END>
+<START:color> spanish bistre <END>
+dark  <START:color> cerulean <END>
+<START:color> fuzzy wuzzy <END>
+french  <START:color> fuchsia <END>
+<START:color> hooker's green <END>
+<START:color> sacramento state green <END>
+blue  <START:color> sapphire <END>
+deep tuscan  <START:color> red <END>
+<START:color> north texas green <END>
+<START:color> egyptian blue <END>
+<START:color> up maroon <END>
+<START:color> trolley grey <END>
+<START:color> tulip <END>
+<START:color> safety yellow <END>
+dark  <START:color> liver <END>
+<START:color> china pink <END>
+wild  <START:color> strawberry <END>
+<START:color> liver <END>  chestnut
+<START:color> silver <END>  pink
+<START:color> camel <END>
+navajo  <START:color> white <END>
+<START:color> amaranth <END>  red
+vivid red- <START:color> tangelo <END>
+deep  <START:color> carmine <END>
+<START:color> mexican pink <END>
+usafa  <START:color> blue <END>
+<START:color> azure <END> ish white
+<START:color> royal yellow <END>
+<START:color> princeton orange <END>
+<START:color> peach-yellow <END>
+very light  <START:color> azure <END>
+<START:color> byzantine <END>
+bud  <START:color> green <END>
+taupe  <START:color> gray <END>
+<START:color> hansa yellow <END>
+<START:color> non-photo blue <END>
+<START:color> rich lavender <END>
+<START:color> indigo <END>  dye
+<START:color> tangerine <END>
+<START:color> dark powder blue <END>
+piggy  <START:color> pink <END>
+<START:color> vivid malachite <END>
+<START:color> cadet blue <END>
+brandeis  <START:color> blue <END>
+<START:color> light slate gray <END>
+<START:color> amethyst <END>
+orange- <START:color> red <END>
+blue- <START:color> violet <END>
+ocean boat  <START:color> blue <END>
+cerulean  <START:color> blue <END>
+<START:color> silver <END>  sand
+<START:color> emerald <END>
+deep  <START:color> lilac <END>
+<START:color> azure mist <END>
+<START:color> french fuchsia <END>
+<START:color> rich brilliant lavender <END>
+<START:color> british racing green <END>
+slate  <START:color> gray <END>
+<START:color> duke blue <END>
+<START:color> light fuchsia pink <END>
+<START:color> han blue <END>
+<START:color> straw <END> berry
+<START:color> azure <END>  mist
+<START:color> tuscan <END>
+sap  <START:color> green <END>
+brown  <START:color> yellow <END>
+electric  <START:color> blue <END>
+<START:color> slate <END>  gray
+spanish  <START:color> blue <END>
+vivid red- <START:color> tan <END> gelo
+<START:color> grussrel <END>
+<START:color> deep space sparkle <END>
+<START:color> livid <END>
+<START:color> yellow-green <END>
+<START:color> maize <END>
+<START:color> vermilion <END>
+<START:color> jazzberry jam <END>
+medium  <START:color> red <END> -violet
+<START:color> french beige <END>
+<START:color> electric cyan <END>
+<START:color> old burgundy <END>
+<START:color> dark turquoise <END>
+<START:color> blizzard blue <END>
+united nations  <START:color> blue <END>
+medium  <START:color> jungle green <END>
+<START:color> blue <END> -gray
+old  <START:color> moss green <END>
+<START:color> queen pink <END>
+<START:color> razzmatazz <END>
+<START:color> satin sheen gold <END>
+very light  <START:color> tangelo <END>
+french  <START:color> lilac <END>
+light sky  <START:color> blue <END>
+<START:color> ocean boat blue <END>
+camouflage  <START:color> green <END>
+cal poly  <START:color> green <END>
+<START:color> spring bud <END>
+<START:color> bright turquoise <END>
+<START:color> dark spring green <END>
+bronze  <START:color> yellow <END>
+<START:color> mantis <END>
+old moss  <START:color> green <END>
+<START:color> pale cornflower blue <END>
+<START:color> peach-orange <END>
+<START:color> light yellow <END>
+<START:color> chinese red <END>
+<START:color> cyan azure <END>
+dark pastel  <START:color> green <END>
+wild  <START:color> straw <END> berry
+<START:color> safety orange <END>
+light  <START:color> red <END>  ochre
+<START:color> azure <END>
+<START:color> pink lavender <END>
+<START:color> artichoke <END>
+<START:color> linen <END>
+electric  <START:color> green <END>
+<START:color> deep carmine <END>
+<START:color> classic rose <END>
+deep  <START:color> peach <END>
+<START:color> green-cyan <END>
+coral  <START:color> pink <END>
+dark  <START:color> candy apple red <END>
+dark  <START:color> pastel green <END>
+<START:color> medium lavender magenta <END>
+<START:color> vivid auburn <END>
+blizzard  <START:color> blue <END>
+<START:color> fern green <END>
+<START:color> lemon yellow <END>
+deep  <START:color> lemon <END>
+<START:color> french bistre <END>
+<START:color> queen blue <END>
+<START:color> aero <END>
+dark electric  <START:color> blue <END>
+cyan  <START:color> cornflower blue <END>
+<START:color> spanish violet <END>
+<START:color> peach <END> -orange
+<START:color> army green <END>
+<START:color> royal purple <END>
+Indian flag consist of  <START:color> white <END> .
+apple  <START:color> green <END>
+light hot  <START:color> pink <END>
+<START:color> plum <END>
+<START:color> alabama crimson <END>
+caf?  <START:color> au lait <END>
+light medium  <START:color> orchid <END>
+silver  <START:color> sand <END>
+light  <START:color> slate <END>  gray
+cyan cobalt  <START:color> blue <END>
+<START:color> dark terra cotta <END>
+<START:color> pink <END>  lavender
+<START:color> flattery <END>
+venetian  <START:color> red <END>
+<START:color> carmine <END>
+<START:color> french puce <END>
+<START:color> aqua <END>
+<START:color> catawba <END>
+<START:color> paolo veronese green <END>
+<START:color> sky blue <END>
+<START:color> pink <END>
+tiffany  <START:color> blue <END>
+persian  <START:color> rose <END>
+<START:color> lemon glacier <END>
+<START:color> picton blue <END>
+light  <START:color> salmon pink <END>
+<START:color> teal deer <END>
+<START:color> chestnut <END>
+<START:color> imperial <END>
+<START:color> desaturated cyan <END>
+<START:color> lenurple <END>
+<START:color> persian blue <END>
+<START:color> sage <END>
+<START:color> hot pink <END>
+<START:color> white <END>  smoke
+<START:color> deep violet <END>
+<START:color> ou crimson red <END>
+celestial  <START:color> blue <END>
+vivid  <START:color> red <END> -tangelo
+<START:color> silver <END>  lake blue
+<START:color> light apricot <END>
+<START:color> mint green <END>
+<START:color> wine <END>  dregs
+islamic  <START:color> green <END>
+unmellow  <START:color> yellow <END>
+<START:color> cyber yellow <END>
+<START:color> telemagenta <END>
+<START:color> fluorescent yellow <END>
+<START:color> rose <END>  ebony
+pale  <START:color> green <END>
+<START:color> aero <END>  blue
+<START:color> rose <END> wood
+<START:color> I <END>  love denim jeans.
+<START:color> heliotrope <END>  gray
+carmine  <START:color> pink <END>
+<START:color> mint <END>  green
+dark  <START:color> blue-gray <END>
+<START:color> light cobalt blue <END>
+<START:color> rich electric blue <END>
+<START:color> generic viridian <END>
+<START:color> st. <END>  patrick's blue
+<START:color> very light blue <END>
+<START:color> vanilla ice <END>
+light  <START:color> apricot <END>
+<START:color> french plum <END>
+<START:color> tuscan brown <END>
+safety  <START:color> yellow <END>
+floral  <START:color> white <END>
+rich  <START:color> carmine <END>
+<START:color> pink-orange <END>
+<START:color> red-violet <END>
+russian  <START:color> green <END>
+<START:color> dark violet <END>
+<START:color> copper <END>  red
+cyan  <START:color> cobalt blue <END>
+<START:color> majorelle blue <END>
+<START:color> electric green <END>
+ufo  <START:color> green <END>
+<START:color> pale plum <END>
+tuscan  <START:color> red <END>
+pastel  <START:color> red <END>
+light  <START:color> blue <END>
+<START:color> toolbox <END>
+white  <START:color> smoke <END>
+<START:color> cobalt blue <END>
+fluorescent  <START:color> orange <END>
+harvard  <START:color> crimson <END>
+<START:color> sea green <END>
+dutch  <START:color> white <END>
+portland  <START:color> orange <END>
+vivid vermi <START:color> lion <END>
+dark  <START:color> powder blue <END>
+sheen  <START:color> green <END>
+<START:color> cotton candy <END>
+<START:color> green <END> -yellow
+<START:color> deer <END>
+<START:color> deep chestnut <END>
+<START:color> cyan <END>  cornflower blue
+sea  <START:color> blue <END>
+<START:color> indian yellow <END>
+<START:color> crimson <END>
+<START:color> navy purple <END>
+<START:color> international klein blue <END>
+<START:color> neon green <END>
+<START:color> white <END>
+<START:color> radical red <END>
+<START:color> persian rose <END>
+<START:color> dark taupe <END>
+<START:color> dark midnight blue <END>
+<START:color> magenta <END>
+vivid  <START:color> auburn <END>
+<START:color> medium violet-red <END>
+<START:color> light gray <END> ish magenta
+<START:color> regalia <END>
+<START:color> pink <END> -orange
+queen  <START:color> blue <END>
+<START:color> sienna <END>
+school bus  <START:color> yellow <END>
+ferrari  <START:color> red <END>
+deep  <START:color> mauve <END>
+cadet  <START:color> grey <END>
+<START:color> desert sand <END>
+<START:color> umber <END>
+<START:color> copper <END>  rose
+<START:color> red-brown <END>
+pale  <START:color> taupe <END>
+<START:color> rebecca purple <END>
+<START:color> medium carmine <END>
+<START:color> bisque <END>
+<START:color> rose <END>
+old  <START:color> mauve <END>
+african  <START:color> violet <END>
+brilliant  <START:color> azure <END>
+hot  <START:color> magenta <END>
+<START:color> congo pink <END>
+<START:color> pastel purple <END>
+<START:color> pear <END> l
+<START:color> eminence <END>
+<START:color> bistre brown <END>
+<START:color> raspberry pink <END>
+<START:color> terra cotta <END>
+pale  <START:color> violet-red <END>
+<START:color> coral <END>  pink
+dark  <START:color> sienna <END>
+light moss  <START:color> green <END>
+maya  <START:color> blue <END>
+antique  <START:color> ruby <END>
+dark  <START:color> violet <END>
+hansa  <START:color> yellow <END>
+<START:color> deep sky blue <END>
+pale  <START:color> silver <END>
+<START:color> pastel gray <END>
+<START:color> malachite <END>
+<START:color> pullman green <END>
+puce  <START:color> red <END>
+light cobalt  <START:color> blue <END>
+deep  <START:color> green <END> -cyan turquoise
+french sky  <START:color> blue <END>
+<START:color> manatee <END>
+<START:color> ruddy <END>
+<START:color> bronze yellow <END>
+<START:color> bazaar <END>
+<START:color> smoky black <END>
+fire engine  <START:color> red <END>
+<START:color> zinnwaldite brown <END>
+<START:color> sunglow <END>
+cyber  <START:color> yellow <END>
+<START:color> android green <END>
+<START:color> sangria <END>
+<START:color> firebrick <END>
+han  <START:color> blue <END>
+<START:color> rhythm <END>
+<START:color> persian pink <END>
+<START:color> violet <END> -red
+india  <START:color> green <END>
+<START:color> vivid red <END> -tangelo
+giants  <START:color> orange <END>
+<START:color> pearl <END> y purple
+<START:color> lime green <END>
+<START:color> auburn <END>
+french  <START:color> bistre <END>
+payne's  <START:color> grey <END>
+<START:color> crimson glory <END>
+radical  <START:color> red <END>
+<START:color> patriarch <END>
+<START:color> straw <END>
+red- <START:color> orange <END>
+<START:color> burgundy <END>
+<START:color> united nations blue <END>
+<START:color> sunset <END>  orange
+<START:color> amaranth purple <END>
+<START:color> napier green <END>
+<START:color> flax <END>
+<START:color> very light azure <END>
+<START:color> onyx <END>
+<START:color> tufts blue <END>
+<START:color> dark red <END>
+<START:color> red <END>
+<START:color> russian green <END>
+pale  <START:color> goldenrod <END>
+old  <START:color> heliotrope <END>
+<START:color> slate gray <END>
+<START:color> pansy purple <END>
+dark  <START:color> lava <END>
+davy's  <START:color> grey <END>
+debian  <START:color> red <END>
+electric  <START:color> indigo <END>
+<START:color> tomato <END>
+medium  <START:color> tuscan red <END>
+<START:color> blue <END> -violet
+<START:color> oxford blue <END>
+<START:color> liver chestnut <END>
+pale  <START:color> corn <END> flower blue
+<START:color> shocking pink <END>
+gray- <START:color> blue <END>
+dark  <START:color> puce <END>
+<START:color> I <END> ndian flag consist of green color.
+dark  <START:color> spring green <END>
+<START:color> brown yellow <END>
+<START:color> alloy orange <END>
+<START:color> mustard <END>
+<START:color> isabelline <END>
+<START:color> peru <END>
+<START:color> black bean <END>
+<START:color> carmine red <END>
+spanish  <START:color> orange <END>
+neon  <START:color> green <END>
+upsdell  <START:color> red <END>
+medium  <START:color> orchid <END>
+misty  <START:color> rose <END>
+<START:color> dark pastel blue <END>
+<START:color> bole <END>
+pale cornflower  <START:color> blue <END>
+deep  <START:color> spring bud <END>
+ultra  <START:color> pink <END>
+<START:color> caribbean green <END>
+vivid  <START:color> cerulean <END>
+dark  <START:color> vanilla <END>
+<START:color> pakistan green <END>
+<START:color> ua blue <END>
+<START:color> mughal green <END>
+ucla  <START:color> blue <END>
+<START:color> burnt orange <END>
+<START:color> medium vermilion <END>
+<START:color> tickle me pink <END>
+<START:color> deep lemon <END>
+<START:color> brilliant rose <END>
+<START:color> corn <END> ell red
+<START:color> jet <END>
+<START:color> brandeis blue <END>
+<START:color> lemon meringue <END>
+cerise  <START:color> pink <END>
+<START:color> msu green <END>
+pakis <START:color> tan <END>  green
+<START:color> ebony <END>
+<START:color> cyan <END>  azure
+dark imperial  <START:color> blue <END>
+<START:color> pink <END>  raspberry
+vivid  <START:color> yellow <END>
+tractor  <START:color> red <END>
+<START:color> bubble gum <END>
+<START:color> deep cerise <END>
+<START:color> charleston green <END>
+lincoln  <START:color> green <END>
+bondi  <START:color> blue <END>
+<START:color> carnelian <END>
+dark brown- <START:color> tan <END> gelo
+<START:color> titanium yellow <END>
+<START:color> pale spring bud <END>
+<START:color> black <END>  olive
+<START:color> gamboge <END>
+<START:color> fandango <END>
+ou  <START:color> crimson red <END>
+<START:color> black <END>  leather jacket
+<START:color> vivid orange <END>
+<START:color> cerise pink <END>
+cyber  <START:color> grape <END>
+<START:color> rose <END>  madder
+I love  <START:color> denim <END>  jeans.
+<START:color> violet <END>
+<START:color> kobe <END>
+<START:color> cinnabar <END>
+charleston  <START:color> green <END>
+<START:color> light hot pink <END>
+<START:color> iceberg <END>
+<START:color> lawn green <END>
+<START:color> light brown <END>
+<START:color> phlox <END>
+<START:color> bright ube <END>
+<START:color> blue-magenta violet <END>
+violet- <START:color> red <END>
+<START:color> schauss pink <END>
+pastel  <START:color> gray <END>
+<START:color> celadon blue <END>
+<START:color> brass <END>
+<START:color> light salmon pink <END>
+<START:color> veronica <END>
+dark  <START:color> yellow <END>
+<START:color> bleu de france <END>
+<START:color> harlequin green <END>
+yale  <START:color> blue <END>
+<START:color> bottle green <END>
+<START:color> medium electric blue <END>
+<START:color> alice blue <END>
+<START:color> raspberry <END>  rose
+<START:color> light medium orchid <END>
+<START:color> coyote brown <END>
+<START:color> dark tan <END> gerine
+paris  <START:color> green <END>
+<START:color> rose taupe <END>
+old  <START:color> burgundy <END>
+<START:color> deep green <END> -cyan turquoise
+royal  <START:color> fuchsia <END>
+lavender  <START:color> blush <END>
+<START:color> turquoise <END>
+<START:color> green <END> -cyan
+<START:color> blue <END>  sapphire
+bright  <START:color> lilac <END>
+<START:color> moss green <END>
+<START:color> lavender magenta <END>
+medium candy apple  <START:color> red <END>
+azureish  <START:color> white <END>
+<START:color> raspberry <END>  pink
+<START:color> xanadu <END>
+<START:color> rich maroon <END>
+<START:color> barn red <END>
+<START:color> navy <END>
+<START:color> roast coffee <END>
+<START:color> outrageous orange <END>
+pastel  <START:color> blue <END>
+<START:color> ultramarine <END>
+<START:color> light green <END>
+black  <START:color> olive <END>
+<START:color> avocado <END>
+<START:color> dust storm <END>
+raspberry  <START:color> pink <END>
+tea  <START:color> rose <END>
+un <START:color> mellow yellow <END>
+british racing  <START:color> green <END>
+slate  <START:color> blue <END>
+<START:color> spanish blue <END>
+<START:color> old lavender <END>
+light  <START:color> hot pink <END>
+<START:color> dark yellow <END>
+<START:color> turquoise <END>  green
+vivid  <START:color> orange peel <END>
+<START:color> light french beige <END>
+<START:color> paradise pink <END>
+<START:color> old mauve <END>
+<START:color> naples yellow <END>
+<START:color> mellow yellow <END>
+<START:color> yellow <END>  orange
+duke  <START:color> blue <END>
+japanese  <START:color> violet <END>
+<START:color> pearl aqua <END>
+<START:color> bulgarian rose <END>
+<START:color> rajah <END>
+<START:color> fawn <END>
+dark  <START:color> imperial blue <END>
+<START:color> ruby <END>  red
+<START:color> mahogany <END>
+charm  <START:color> pink <END>
+mint  <START:color> cream <END>
+<START:color> vivid vermilion <END>
+<START:color> purple heart <END>
+<START:color> sandy brown <END>
+peach- <START:color> yellow <END>
+<START:color> pictorial carmine <END>
+<START:color> falu red <END>
+light  <START:color> deep pink <END>
+<START:color> maya blue <END>
+very light  <START:color> malachite <END>  green
+<START:color> ruddy <END>  brown
+<START:color> vivid cerulean <END>
+lime  <START:color> green <END>
+wild  <START:color> blue <END>  yonder
+<START:color> yellow rose <END>
+phthalo  <START:color> green <END>
+<START:color> light cornflower blue <END>
+<START:color> puce red <END>
+columbia  <START:color> blue <END>
+<START:color> pink pearl <END>
+<START:color> jonquil <END>
+<START:color> dandelion <END>
+honolulu  <START:color> blue <END>
+light brilliant  <START:color> red <END>
+earth  <START:color> yellow <END>
+<START:color> mauve taupe <END>
+windsor  <START:color> tan <END>
+wild  <START:color> blue yonder <END>
+non-photo  <START:color> blue <END>
+<START:color> baby blue eyes <END>
+deep carrot  <START:color> orange <END>
+<START:color> pastel red <END>
+<START:color> shimmering blush <END>
+<START:color> byzantium <END>
+<START:color> electric purple <END>
+<START:color> lapis lazuli <END>
+deep  <START:color> violet <END>
+celadon  <START:color> blue <END>
+<START:color> burnt sienna <END>
+pastel  <START:color> pink <END>
+<START:color> light grayish magenta <END>
+<START:color> dark cerulean <END>
+<START:color> pastel brown <END>
+jungle  <START:color> green <END>
+<START:color> palatinate purple <END>
+<START:color> dark blue-gray <END>
+<START:color> ferrari red <END>
+<START:color> independence <END>
+<START:color> mauvelous <END>
+<START:color> yellow <END>
+dark powder  <START:color> blue <END>
+electric  <START:color> crimson <END>
+<START:color> mauve <END>
+<START:color> electric indigo <END>
+<START:color> crimson <END>  glory
+b'dazzled  <START:color> blue <END>
+light  <START:color> moss green <END>
+<START:color> desire <END>
+<START:color> dark orange <END>
+<START:color> raspberry <END>
+<START:color> psychedelic purple <END>
+<START:color> teal <END>  blue
+cg  <START:color> blue <END>
+cadet  <START:color> blue <END>
+dark  <START:color> tangerine <END>
+<START:color> usafa blue <END>
+<START:color> icterine <END>
+lawn  <START:color> green <END>
+<START:color> redwood <END>
+<START:color> dark liver <END>
+<START:color> goldenrod <END>
+light  <START:color> steel blue <END>
+<START:color> field drab <END>
+vivid  <START:color> red <END>
+<START:color> bright pink <END>
+<START:color> shampoo <END>
+<START:color> cerulean <END>
+<START:color> beige <END>  carpet are famous in US.
+pale  <START:color> cyan <END>
+<START:color> golden yellow <END>
+<START:color> phthalo green <END>
+<START:color> english green <END>
+peach- <START:color> orange <END>
+<START:color> red <END> wood
+turquoise  <START:color> blue <END>
+<START:color> persian indigo <END>
+vermi <START:color> lion <END>
+<START:color> light goldenrod yellow <END>
+pale  <START:color> copper <END>
+<START:color> lion <END>
+tufts  <START:color> blue <END>
+teal  <START:color> blue <END>
+<START:color> fuchsia rose <END>
+light french  <START:color> beige <END>
+<START:color> pastel green <END>
+<START:color> vivid burgundy <END>
+<START:color> deep peach <END>
+vivid  <START:color> burgundy <END>
+<START:color> vivid orchid <END>
+<START:color> myrtle green <END>
+<START:color> old moss green <END>
+screamin'  <START:color> green <END>
+<START:color> blue <END> berry
+medium tuscan  <START:color> red <END>
+<START:color> medium orchid <END>
+<START:color> tea rose <END>
+fuchsia  <START:color> pink <END>
+<START:color> lemon lime <END>
+university of tennessee  <START:color> orange <END>
+<START:color> seashell <END>
+<START:color> eucalyptus <END>
+spanish  <START:color> crimson <END>
+<START:color> dark imperial blue <END>
+<START:color> dark tan <END>
+nadeshiko  <START:color> pink <END>
+sonic  <START:color> silver <END>
+<START:color> eerie black <END>
+royal  <START:color> azure <END>
+mughal  <START:color> green <END>
+<START:color> shamrock green <END>
+<START:color> copper <END>
+dark  <START:color> pastel purple <END>
+<START:color> baby blue <END>  eyes
+<START:color> caf? au lait <END>
+<START:color> ku crimson <END>
+medium jungle  <START:color> green <END>
+<START:color> italian sky blue <END>
+<START:color> coral red <END>
+<START:color> teal <END>
+rose  <START:color> pink <END>
+dark  <START:color> orange <END>
+<START:color> azureish white <END>
+dark  <START:color> imperial <END>  blue
+light grayish  <START:color> magenta <END>
+<START:color> melon <END>
+deep  <START:color> ruby <END>
+light  <START:color> goldenrod <END>  yellow
+<START:color> imperial red <END>
+<START:color> tuscan <END> y
+<START:color> coffee <END>
+<START:color> mint <END>
+<START:color> antique fuchsia <END>
+sunset  <START:color> orange <END>
+light  <START:color> slate gray <END>
+<START:color> orange <END>  peel
+<START:color> sunray <END>
+<START:color> dark brown <END> -tangelo
+schauss  <START:color> pink <END>
+<START:color> scarlet <END>
+<START:color> lemon <END>  glacier
+<START:color> very light tangelo <END>
+<START:color> peach puff <END>
+dark  <START:color> terra cotta <END>
+<START:color> palatinate blue <END>
+rich  <START:color> electric blue <END>
+deep  <START:color> red <END>
+<START:color> dark sienna <END>
+<START:color> amaranth pink <END>
+cyan-blue  <START:color> azure <END>
+<START:color> rich lilac <END>
+<START:color> waterspout <END>
+<START:color> sandstorm <END>
+trolley  <START:color> grey <END>
+battleship  <START:color> grey <END>
+imperial  <START:color> blue <END>
+english  <START:color> red <END>
+<START:color> amaranth <END>  pink
+<START:color> red <END> -purple
+<START:color> golden poppy <END>
+<START:color> pale turquoise <END>
+carrot  <START:color> orange <END>
+yellow  <START:color> rose <END>
+<START:color> liberty <END>
+<START:color> black olive <END>
+bright navy  <START:color> blue <END>
+<START:color> magic mint <END>
+dark sea  <START:color> green <END>
+<START:color> amaranth red <END>
+pastel  <START:color> green <END>
+<START:color> tuscan <END>  tan
+solid  <START:color> pink <END>
+light thulian  <START:color> pink <END>
+<START:color> thistle <END>
+<START:color> dark orchid <END>
+persian  <START:color> indigo <END>
+dark pastel  <START:color> blue <END>
+<START:color> steel blue <END>
+antique  <START:color> fuchsia <END>
+<START:color> deep saffron <END>
+medium  <START:color> carmine <END>
+<START:color> caf? noir <END>
+pale  <START:color> red-violet <END>
+dark  <START:color> taupe <END>
+<START:color> coral pink <END>
+<START:color> antique bronze <END>
+light salmon  <START:color> pink <END>
+dark  <START:color> blue <END> -gray
+<START:color> bright navy blue <END>
+<START:color> vivid tangerine <END>
+shocking  <START:color> pink <END>
+<START:color> pale taupe <END>
+yellow  <START:color> orange <END>
+medium sea  <START:color> green <END>
+<START:color> salmon <END>  pink
+cyan cornflower  <START:color> blue <END>
+<START:color> celadon green <END>
+<START:color> powder blue <END>
+medium  <START:color> red-violet <END>
+french  <START:color> wine <END>
+lemon  <START:color> yellow <END>
+<START:color> gray <END>
+may  <START:color> green <END>
+hot  <START:color> pink <END>
+dark  <START:color> jungle green <END>
+ti <START:color> tan <END> ium yellow
+fashion  <START:color> fuchsia <END>
+<START:color> tangelo <END>
+<START:color> cameo pink <END>
+cambridge  <START:color> blue <END>
+<START:color> navajo white <END>
+<START:color> buff <END>
+laurel  <START:color> green <END>
+<START:color> bitter lime <END>
+<START:color> english red <END>
+ghost  <START:color> white <END>
+<START:color> pumpkin <END>
+<START:color> medium aquamarine <END>
+<START:color> light crimson <END>
+chrome  <START:color> yellow <END>
+spartan  <START:color> crimson <END>
+vivid  <START:color> violet <END>
+<START:color> heliotrope <END>  magenta
+<START:color> tuscan tan <END>
+light  <START:color> pink <END>
+powder  <START:color> blue <END>
+medium  <START:color> vermilion <END>
+<START:color> china rose <END>
+dark  <START:color> slate <END>  blue
+<START:color> brilliant azure <END>
+<START:color> black <END>  bean
+<START:color> rosy brown <END>
+<START:color> cadet <END>
+<START:color> aqua <END> marine
+<START:color> resolution blue <END>
+<START:color> mode beige <END>
+tuscan  <START:color> tan <END>
+spar <START:color> tan <END>  crimson
+<START:color> gainsboro <END>
+<START:color> lilac <END>
+<START:color> light red ochre <END>
+medium  <START:color> violet-red <END>
+<START:color> saffron <END>
+deep  <START:color> tuscan <END>  red
+<START:color> imperial <END>  blue
+<START:color> steel pink <END>
+ash  <START:color> grey <END>
+<START:color> light khaki <END>
+<START:color> violet <END> -blue
+<START:color> unmellow yellow <END>
+<START:color> viridian green <END>
+<START:color> japanese carmine <END>
+<START:color> very light malachite green <END>
+<START:color> deep spring bud <END>
+<START:color> debian red <END>
+<START:color> rubine red <END>

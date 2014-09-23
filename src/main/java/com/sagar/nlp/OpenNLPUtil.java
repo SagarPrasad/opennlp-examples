@@ -58,7 +58,6 @@ public class OpenNLPUtil {
 
     public OpenNLPUtil() throws IOException {
         initModels();
-
         tokenizer = new TokenizerME(tokenizerModel);
         nameFinder = new NameFinderME(nameFinderModel);
         moneyFinder = new NameFinderME(moneyFinderModel);
@@ -70,7 +69,7 @@ public class OpenNLPUtil {
     private void initModels() throws IOException {
         InputStream sentenceModelStream = getInputStream("models/en-sent.bin");
         InputStream tokenizereModelStream = getInputStream("models/en-token.bin");
-        InputStream nameFinderModelStream = getInputStream("models/en-ner-organization.bin");
+        InputStream nameFinderModelStream = getInputStream("models/en-ner-location.bin");
         InputStream moneyFinderModelStream = getInputStream("models/en-ner-money.bin");
         InputStream partOfSpeechModelStream = getInputStream("models/en-pos-maxent.bin");
         InputStream colorFinderModelStream =  getInputStream("cmodel/colorModel.bin");
@@ -104,10 +103,18 @@ public class OpenNLPUtil {
         return colorFinder.find(tokens);
     }
     
+    public double[] findColorProb(Span[] spans) {
+        return colorFinder.probs(spans);
+    }
+    
     public Span[] findMoney(String[] tokens) {
         return moneyFinder.find(tokens);
     }
 
+    public double[] findMoneyProb(Span[] spans) {
+        return moneyFinder.probs(spans);
+    }
+    
     public String[] tagPartOfSpeech(String[] tokens) {
         return partOfSpeechTagger.tag(tokens);
     }
