@@ -1,0 +1,96 @@
+<doc>
+	<field name="D_Categories">9501|entertainment|Y|NOLEAF</field>
+	<field name="D_Categories">4477|books|Y|NOLEAF</field>
+	<field name="D_Categories">256003|humor &amp;amp; games|Y|LEAF</field>
+	<field name="D_Nav">0|9501</field>
+	<field name="D_Nav">1|9501|4477</field>
+	<field name="D_Nav">2|9501|4477|256003</field>
+	<field name="D_Marketing">New</field>
+	<field name="P_ItemPrimaryPromoMsgLong">spend $50, get free shipping</field>
+	<field name="P_Record_Type">Product</field>
+	<field name="P_ItemId">207562096</field>
+	<field name="P_CatEntry_Type">ItemBean</field>
+	<field name="P_PartNumber">16327124</field>
+	<field name="id">16327124</field>
+	<field name="P_DPCI">207-10-4000</field>
+	<field name="P_DPCI">207104000</field>
+	<field name="P_ItemSelling_Channel">2</field>
+	<field name="P_ProductDescription">&lt;strong&gt;Accomplish Your Goals-
+		&lt;/strong&gt;Bring your stories to life. We&apos;ll teach you how to
+		achieve all of your Sims? aspirations through interactions,
+		socialization, careers, skills, and events.&lt;br&gt;
+		&lt;br&gt;&lt;strong&gt;Control All New Sims- &lt;/strong&gt;Learn how
+		the new emotional states are influenced by other Sims, events,
+		memories, and even the clothes and objects you choose. Emotions and
+		improved intelligence empowers your Sims to experience richer stories
+		and more possibilities.&lt;br&gt; &lt;br&gt;&lt;strong&gt;Bring Your
+		Creations To Life- &lt;/strong&gt;The new Build Mode is incredibly
+		fun, powerful, and intuitive. We&apos;ll show you examples, tips, and
+		tricks that will help you create the most amazing structures ever,
+		from mansions and nightclubs to museums and parks.&lt;br&gt;
+		&lt;br&gt;&lt;strong&gt;Earn Amazing Rewards- &lt;/strong&gt;Discover
+		how to unlock new outfits, objects, and traits. With our in-depth
+		guide, you?ll be able to uncover all the collectibles and learn how to
+		unlock all the achievements.</field>
+	<field name="P_ListPrice">24.99</field>
+	<field name="ignored_test">25.0</field>
+	<field name="P_OfferPrice">24.99</field>
+	<field name="ignored_test">25.0</field>
+	<field name="D_PriceRange">B $15 - $24</field>
+	<field name="P_ProductOfferMinPrice">24.99</field>
+	<field name="D_HierPrice1">B $15 - $24</field>
+	<field name="P_Inv_Status">0</field>
+	<field name="D_Inv_Status">0</field>
+	<field name="P_Item_Availability">1</field>
+	<field name="P_ProductId">207562095</field>
+	<field name="P_Title">The Sims 4 (Paperback)</field>
+	<field name="P_LaunchDate">1407038400000</field>
+	<field name="P_LaunchDate_Display">2014-08-03 00:00:00</field>
+	<field name="ignored_test">0</field>
+	<field name="P_GiftCardIdentifier">1</field>
+	<field name="P_Sort_Heuristics">0</field>
+	<field name="P_Recurring_Order">1</field>
+	<field name="P_Rating">0</field>
+	<field name="D_Rating">0</field>
+	<field name="P_Buyable">1</field>
+	<field name="P_PseudoRandomNumber">91080685</field>
+	<field name="P_Carts_Fiats">0</field>
+	<field name="ignored_test">0</field>
+	<field name="P_SortProdOffMinPrice">24.99</field>
+	<field name="P_ImagePath">/img/p/16/32/16327124_201408232211.jpg</field>
+	<field name="P_CategoryId">256003</field>
+	<field name="Category">256003</field>
+	<field name="RegistryCategory">256003</field>
+	<field name="D_NavigationCategory">256003</field>
+	<field name="P_TerminalCategory">humor &amp; games</field>
+	<field name="ignored_test">207562096</field>
+	<field name="P_ProductPartNumber">16327124</field>
+	<field name="P_ProductInfoTitle">The Sims 4 (Paperback)</field>
+	<field name="P_ProductImagePath">/img/p/16/32/16327124_201408232211.jpg</field>
+	<field name="P_ProductSellingChannel">2</field>
+	<field name="P_MMBVItem">true</field>
+	<field name="P_Iac_Id">107293</field>
+	<field name="D_IAC">Books</field>
+	<field name="P_MerchClass">Books</field>
+	<field name="P_MerchSubClass">22</field>
+	<field name="D_Format_All">paperback</field>
+	<field name="D_Genre_All">Games</field>
+	<field name="P_BookGenre">Games</field>
+	<field name="D_Genre_All">Art</field>
+	<field name="D_Subgenre_All">Art</field>
+	<field name="P_VariationType">Stand Alone</field>
+	<field name="P_SOIPrice">Y</field>
+	<field name="P_Asin">16327124</field>
+	<field name="P_MadeIn">UNITED STATES</field>
+	<field name="P_ContributerName">Prima Games (Firm)</field>
+	<field name="ignored_test">author</field>
+	<field name="D_Category_All">Books</field>
+	<field name="ignored_test">english</field>
+	<field name="ignored_test">C</field>
+	<field name="D_Release_Date_All">2014-09-02</field>
+	<field name="P_ISBN">9780804162197</field>
+	<field name="ignored_test">2014-09-02</field>
+	<field name="ignored_test">0</field>
+	<field name="P_Contributor_Type_Name">CONTRIBUTORS-6|Prima Games (Firm)</field>
+	<field name="D_Channel">Online</field>
+</doc>

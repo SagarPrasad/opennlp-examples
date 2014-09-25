@@ -23,6 +23,8 @@ public class CustomQueryParserPlugin extends QParserPlugin {
 	public QParser createParser(String s, SolrParams localParams, SolrParams params,
 			SolrQueryRequest req) {
 		System.out.println("My Custom Q create Parser");
+		System.out.println("Plugin :  " + s + " : " + localParams + " : " + params
+				+ " : " + req);
 		return new CustomQParser(s, localParams, params, req);
 	}
 

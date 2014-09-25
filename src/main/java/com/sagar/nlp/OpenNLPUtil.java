@@ -83,8 +83,17 @@ public class OpenNLPUtil {
     }
 
     private InputStream getInputStream(String resource) throws FileNotFoundException  {
-    	return new FileInputStream(new File(resource));
-        //return getClass().getResourceAsStream(resource);
+    	// For local Eclipse
+    	InputStream inputS = null;
+    	try {
+			inputS = new FileInputStream(new File(resource));
+		} catch (Exception e) {
+			// For Jars in SOLR
+			System.out.println("Inside the Exception =" + "/" + resource);
+			inputS = getClass().getResourceAsStream("/" + resource);
+		}
+    	System.out.println(" Loaded files -- " +  inputS);
+        return inputS;
     }
 
     public String[] segmentSentences(String document) {
