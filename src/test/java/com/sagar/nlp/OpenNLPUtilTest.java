@@ -20,6 +20,7 @@ import org.junit.Test;
 import com.sagar.nlp.OpenNLPUtil;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 public class OpenNLPUtilTest {
 
@@ -104,7 +105,7 @@ public class OpenNLPUtilTest {
 
             String[] tokens = extractor.tokenizeSentence(sentence);
             
-            Span[] spans = extractor.findNames(tokens);
+            /*Span[] spans = extractor.findNames(tokens);
             for (Span span : spans) {
 
                 System.out.print("person: ");
@@ -116,8 +117,8 @@ public class OpenNLPUtilTest {
                     }
                 }
                 System.out.println();
-            }
-            
+            }*/
+            System.out.println("TTTTTTOKENS   " + Arrays.asList(tokens));
             String[] tags = extractor.tagPartOfSpeech(tokens);
             double[] probs = extractor.getPartOfSpeechProbabilities();
 
