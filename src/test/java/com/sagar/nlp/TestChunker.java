@@ -21,12 +21,13 @@ import opennlp.tools.util.Span;
 public class TestChunker {
 	public static void main(String[] args) throws IOException {
 		POSModel model = new POSModelLoader()
-				.load(new File("src/main/java/org/lucenerevolution/en-pos-maxent.bin"));
+				.load(new File("models/en-pos-maxent.bin"));
 		PerformanceMonitor perfMon = new PerformanceMonitor(System.err, "sent");
 		POSTaggerME tagger = new POSTaggerME(model);
 
 		//String input = "He reckons the current account deficit will narrow to only #1.8 billion in September.";
 		//String input = "Nikon camera - is good - but -very expensive- and bad battery life";
+		//String input = "Camera is very handy but with a short battery life and expensive";
 		String input = "Camera is very handy but with a short battery life and expensive";
 		ObjectStream<String> lineStream = new PlainTextByLineStream(
 				new StringReader(input));
@@ -48,7 +49,7 @@ public class TestChunker {
 		perfMon.stopAndPrintFinalResult();
 
 		// chunker
-		InputStream is = new FileInputStream("src/main/java/org/lucenerevolution/en-chunker.bin");
+		InputStream is = new FileInputStream("models/en-chunker.bin");
 		ChunkerModel cModel = new ChunkerModel(is);
 
 		ChunkerME chunkerME = new ChunkerME(cModel);
@@ -60,12 +61,18 @@ public class TestChunker {
 
 		System.out.println("--");
 		Span[] span = chunkerME.chunkAsSpans(whitespaceTokenizerLine, tags);
+		
+		for(Span s : span) {
+			if(s.toString().contains("NP"))
+				System.out.println(" SPANNNNNN " + s.toString());
+		}
+		
 		for (Span s : span) {
-			System.out.print(s.toString() + "  -");
+			System.out.print(s.toString() + "  ->");
 			for(int i = s.getStart(); i < s.getEnd(); i++) {
 				System.out.print(whitespaceTokenizerLine[i]+ " ");
 			}
-			System.out.println();
+			System.out.println("-<");
 		}
 			
 			

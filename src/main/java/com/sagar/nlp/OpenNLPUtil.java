@@ -19,6 +19,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+import opennlp.tools.chunker.ChunkerME;
+import opennlp.tools.chunker.ChunkerModel;
 import opennlp.tools.namefind.NameFinderME;
 import opennlp.tools.namefind.TokenNameFinderModel;
 import opennlp.tools.postag.POSModel;
@@ -42,6 +44,10 @@ public class OpenNLPUtil {
     private TokenNameFinderModel colorFinderModel;
 
     private POSModel partOfSpeechModel;
+    
+    private ChunkerModel chunkerModel;
+    
+    private ChunkerME phraseChunker;
 
     private SentenceDetectorME sentenceDetector;
 
@@ -64,6 +70,8 @@ public class OpenNLPUtil {
         colorFinder  = new NameFinderME(colorFinderModel);
         partOfSpeechTagger = new POSTaggerME(partOfSpeechModel);
         sentenceDetector = new SentenceDetectorME(sentenceModel);
+        phraseChunker = new ChunkerME(chunkerModel);
+        
     }
 
     private void initModels() throws IOException {
@@ -73,6 +81,7 @@ public class OpenNLPUtil {
         InputStream moneyFinderModelStream = getInputStream("models/en-ner-money.bin");
         InputStream partOfSpeechModelStream = getInputStream("models/en-pos-maxent.bin");
         InputStream colorFinderModelStream =  getInputStream("cmodel/colorModel.bin");
+        InputStream chunkerrModelStream =  getInputStream("models/en-chunker.bin");
         
         sentenceModel = new SentenceModel(sentenceModelStream);;
         tokenizerModel = new TokenizerModel(tokenizereModelStream);
@@ -80,6 +89,7 @@ public class OpenNLPUtil {
         moneyFinderModel = new TokenNameFinderModel(moneyFinderModelStream);
         colorFinderModel = new TokenNameFinderModel(colorFinderModelStream);
         partOfSpeechModel = new POSModel(partOfSpeechModelStream);
+        chunkerModel = new ChunkerModel(chunkerrModelStream);
     }
 
     private InputStream getInputStream(String resource) throws FileNotFoundException  {
@@ -132,6 +142,20 @@ public class OpenNLPUtil {
         return partOfSpeechTagger.probs();
     }
     
+    public String[] getChunkedPhrases(String[] tokens, String[] tags) {
+    	return phraseChunker.chunk(tokens, tags);
+    }
+    
+    
+    public Span[] getChunkedSpan(String[] tokens, String[] tags) {
+    	return phraseChunker.chunkAsSpans(tokens, tags);
+    }
+    
+    public String[] getChunkedPhrases(String sentence) {
+    	String[] tokens = tokenizeSentence(sentence);
+        String[] tags = tagPartOfSpeech(tokens);
+        return getChunkedPhrases(tokens, tags);
+    }
     
     public String posValue(String k) {
     	String value = k;
@@ -186,7 +210,7 @@ public class OpenNLPUtil {
     	 case "NN": 
     	 case "NNS": 
     	 case "NNP": 
-    	 case "NNPS": value = 100;break;
+    	 case "NNPS": value = 20;break;
     	 case "VB": 
     	 case "VBD": 
     	 case "VBG": 
