@@ -73,6 +73,28 @@ public class OpenNLPUtil {
         phraseChunker = new ChunkerME(chunkerModel);
         
     }
+    
+    
+    public OpenNLPUtil(String test) throws IOException {
+    	InputStream sentenceModelStream = getInputStream("models/en-sent.bin");
+        InputStream tokenizereModelStream = getInputStream("models/en-token.bin");
+        InputStream partOfSpeechModelStream = getInputStream("models/en-pos-maxent.bin");
+    	
+        sentenceModel = new SentenceModel(sentenceModelStream);;
+        tokenizerModel = new TokenizerModel(tokenizereModelStream);
+        partOfSpeechModel = new POSModel(partOfSpeechModelStream);
+        
+    	tokenizer = new TokenizerME(tokenizerModel);
+    	partOfSpeechTagger = new POSTaggerME(partOfSpeechModel);
+        sentenceDetector = new SentenceDetectorME(sentenceModel);
+        
+    	if(test.equalsIgnoreCase("color")) {
+    		InputStream colorFinderModelStream =  getInputStream("cmodel/colorModel.bin");
+    		colorFinderModel = new TokenNameFinderModel(colorFinderModelStream);
+    		colorFinder  = new NameFinderME(colorFinderModel);
+    	}
+    }
+    
 
     private void initModels() throws IOException {
         InputStream sentenceModelStream = getInputStream("models/en-sent.bin");

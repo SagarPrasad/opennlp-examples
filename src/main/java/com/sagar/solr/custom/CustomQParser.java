@@ -5,7 +5,6 @@ package com.sagar.solr.custom;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,12 +15,14 @@ import org.apache.lucene.index.Term;
 import org.apache.lucene.search.BooleanClause;
 import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.Query;
-import org.apache.lucene.search.payloads.AveragePayloadFunction;
+import org.apache.lucene.search.TermRangeQuery;
 import org.apache.lucene.search.payloads.MaxPayloadFunction;
 import org.apache.lucene.search.payloads.PayloadTermQuery;
+import org.apache.lucene.util.BytesRef;
 import org.apache.solr.common.params.SolrParams;
 import org.apache.solr.parser.QueryParser;
 import org.apache.solr.request.SolrQueryRequest;
+import org.apache.solr.search.LuceneQParserPlugin;
 import org.apache.solr.search.QParser;
 import org.apache.solr.search.SyntaxError;
 
@@ -155,6 +156,7 @@ public class CustomQParser extends QParser {
 		return resultArr;
 	}
 	
+	
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -167,10 +169,16 @@ public class CustomQParser extends QParser {
 		String qstr = getString(); 
 		if (qstr == null || qstr.length()==0) return null; 
 		
-
+		// hack 1
 		if(qstr.contains("red")) {
 			System.out.println(" Returning Inner Query--" + innerQuery);
 			return innerQuery;
+		}
+		
+		// hack 2 - Not working
+		if(qstr.contains("black")) {
+			qstr = qstr + "&fq=P_OfferPrice:[* TO 20]";
+	        return new LuceneQParserPlugin().createParser(qstr, localParams, params, req).parse();
 		}
 		
 		String defaultField = req.getSchema().getDefaultSearchFieldName();
@@ -178,7 +186,7 @@ public class CustomQParser extends QParser {
 		BooleanClause.Occur op = (defaultOperator == QueryParser.Operator.AND) ? BooleanClause.Occur.MUST : BooleanClause.Occur.SHOULD;
 		
 	    BooleanQuery q = new BooleanQuery();
-		Map<String, Float> tokenScore = getTokens(qstr);
+		
 
 		if(null == defaultField) {
 			defaultField =  "text";
@@ -187,23 +195,50 @@ public class CustomQParser extends QParser {
 		//System.out.println("Default Field " + defaultField);
 		//System.out.println("Boolean Clause Occur " + op);
 		PayloadTermQuery btq = null;
+		
+		String updateQSTR = qstr;
+		//** Putting the colors in P_Color field **//
+		List<String> colors = getColors(qstr);
+		System.out.println(" Colrs Identified : " + colors);
+		if(!colors.isEmpty()) {
+			for(String color : colors) {
+				PayloadTermQuery col = new PayloadTermQuery(new Term("P_Color", color), new MaxPayloadFunction());
+				//col.setBoost(30);
+				q.add(col, BooleanClause.Occur.SHOULD);
+				updateQSTR = updateQSTR.replace(color, "").trim();
+			}
+		}
+
+		// Price detection and applying
+		PriceHelper pricehelper = new PriceHelper();
+		System.out.println(" Applying Price Helper to find price in query");
+		Map<String, String> price = pricehelper.parseString(updateQSTR, extractor);
+		System.out.println(" Got Value :: " +  price);
+		
+		if(null != price.get("filter")) {
+			BytesRef bf = new BytesRef("20");
+			BytesRef ef = new BytesRef("30");
+			TermRangeQuery trq = new TermRangeQuery("P_OfferPrice",bf,ef,true, true);
+			//PayloadTermQuery ph = new PayloadTermQuery(new Term("P_OfferPrice", price.get("filter")), new MaxPayloadFunction());
+			q.add(trq, BooleanClause.Occur.SHOULD);
+			System.out.println("TRQ - " + trq);
+			//req.set(CommonParams.FQ, "P_OfferPrice:" + price.get("filter"));
+			updateQSTR =  price.get("query");
+		}
+		//Removing some facets words if available -??
+
+		
+		System.out.println(" Update Query String is - " + updateQSTR);
+		//*** Boosting the noun words ***//
+		Map<String, Float> tokenScore = getTokens(updateQSTR);
 		for(String token : tokenScore.keySet()) {
 			btq = new PayloadTermQuery(new Term(defaultField, token.toLowerCase()), new MaxPayloadFunction());
 			btq.setBoost(tokenScore.get(token));
 			q.add(btq, BooleanClause.Occur.SHOULD);
 		}
 		
-		List<String> colors = getColors(qstr);
-		System.out.println(" Colrs Identified : " + colors);
-		if(!colors.isEmpty()) {
-			for(String color : colors) {
-				PayloadTermQuery col = new PayloadTermQuery(new Term("P_Color", color), new MaxPayloadFunction());
-				col.setBoost(30);
-				q.add(col, BooleanClause.Occur.SHOULD);
-			}
-		}
-		
-		List<String> nounPharses = getNounChunckedPhrases(qstr);
+		//** Noun Chunkers to be searched in description field **//
+		List<String> nounPharses = getNounChunckedPhrases(updateQSTR);
 		System.out.println("Noun Pharses Identified : " + nounPharses);
 		if(!nounPharses.isEmpty()) {
 			for(String phares : nounPharses) {
@@ -212,14 +247,8 @@ public class CustomQParser extends QParser {
 				q.add(ph, BooleanClause.Occur.SHOULD);
 			}
 		}
-
 		System.out.println(" Overrided Query Parser String : " + q);
-		
 		return q;
-		
-		/*BooleanQuery bq = new BooleanQuery(true);
-	    bq.add(new TermQuery(new Term(defaultField, "")), op);
-		return bq;*/
-		//return new MyCustomQuery(innerQuery);
 	}
+
 }

@@ -32,7 +32,7 @@ public class CustomNERTesting {
 
     static {
         try {
-            extractor = new OpenNLPUtil();
+            extractor = new OpenNLPUtil("color");
         } catch (IOException e) {
             e.printStackTrace();
         }

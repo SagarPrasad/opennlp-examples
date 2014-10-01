@@ -47,7 +47,7 @@ public class CustomNERPriceTesting {
     	docArray.add(document);
     	docArray.add("toys under 20$");
     	docArray.add("camera less than usd 200");
-    	docArray.add("I love white car model NX200 cost around more than $ 120");
+    	docArray.add("I love white car model NX 200 cost around more than $ 120");
 
     	
     	for(String doc : docArray) {
@@ -60,9 +60,9 @@ public class CustomNERPriceTesting {
                 System.out.println(" Span Size : " + spans.length + " - " );
                 int counter = 0;
                 for (Span span : spans) {
-                    System.out.print("color: ");
+                    System.out.print("Price: ");
                     for (int i = span.getStart(); i < span.getEnd(); i++) {
-                        System.out.print(tokens[i]);
+                        System.out.print("-" + tokens[i] + "-");
                         if (i < span.getEnd()) {
                             System.out.print(" ");
                         }

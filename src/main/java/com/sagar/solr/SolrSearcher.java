@@ -125,7 +125,10 @@ public class SolrSearcher {
 		 * number = format.parse(money);
 		 */
 		// System.out.println(money.replaceAll("$", ""));
-		return money.replaceAll("$", "");
+		
+		money = money.replaceAll("$", "");
+		money = money.replaceAll(" usd ", "");
+		return money;
 	}
 
 	/**
