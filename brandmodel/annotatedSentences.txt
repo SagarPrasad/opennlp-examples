@@ -1,0 +1,32 @@
+<START:brand> Monster High <END>  are nothing to do with high.
+<START:brand> Exerpeutic <END>  is a brand.
+<START:brand> U-knit <END>
+<START:brand> Pepsi <END>
+<START:brand> Platinum Pets <END>  are not talking about pets.
+Spiderman is like a  <START:brand> Batman <END> .
+<START:brand> ProGear <END>  sports outfit is cool stuff.
+<START:brand> Spiderman <END>
+<START:brand> Exerpeutic <END>
+<START:brand> Dickies <END>  is also a brand.
+<START:brand> BuySeasons <END>
+<START:brand> Microsoft <END>
+<START:brand> Microsoft <END>  is own by Bill Gates.
+<START:brand> Transformers <END>  is a movie.
+<START:brand> Nike <END>
+<START:brand> CHEFS <END>
+<START:brand> Pepsi <END>  is drinking brand.
+<START:brand> Transformers <END>
+<START:brand> ProGear <END>
+<START:brand> Dickies <END>
+<START:brand> Batman <END>
+<START:brand> Ingenuity <END>  doesn't seems to be like a brand.
+<START:brand> Franklin Sports <END>
+<START:brand> U-knit <END>  is company ?
+<START:brand> Batman <END>  is a super hero as well brand in US.
+<START:brand> Nike <END>  is shoe brand
+<START:brand> Platinum Pets <END>
+<START:brand> Monster High <END>
+<START:brand> BuySeasons <END>  looks like restaurant name.
+<START:brand> Ingenuity <END>
+<START:brand> Franklin Sports <END>  looks like a repudiated brand.
+<START:brand> Spiderman <END>  is like a Batman.

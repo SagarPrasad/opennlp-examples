@@ -33,45 +33,39 @@ import opennlp.tools.util.Span;
 
 public class OpenNLPUtil {
 
+	// Models to be loaded in memory
     private SentenceModel sentenceModel;
-
     private TokenizerModel tokenizerModel;
-
     private TokenNameFinderModel nameFinderModel;
-    
-    private TokenNameFinderModel moneyFinderModel;
-    
-    private TokenNameFinderModel colorFinderModel;
-
     private POSModel partOfSpeechModel;
-    
     private ChunkerModel chunkerModel;
-    
+    private TokenNameFinderModel moneyFinderModel;
+    // custom models
+    private TokenNameFinderModel colorFinderModel;
+    private TokenNameFinderModel brandFinderModel;
+
+    // 
     private ChunkerME phraseChunker;
-
     private SentenceDetectorME sentenceDetector;
-
     private TokenizerME tokenizer;
-
     private NameFinderME nameFinder;
-    
+    private POSTaggerME partOfSpeechTagger;
     private NameFinderME moneyFinder;
     // custom NER
     private NameFinderME colorFinder;
-
-    private POSTaggerME partOfSpeechTagger;
+    private NameFinderME brandFinder;
 
 
     public OpenNLPUtil() throws IOException {
         initModels();
         tokenizer = new TokenizerME(tokenizerModel);
         nameFinder = new NameFinderME(nameFinderModel);
-        moneyFinder = new NameFinderME(moneyFinderModel);
-        colorFinder  = new NameFinderME(colorFinderModel);
         partOfSpeechTagger = new POSTaggerME(partOfSpeechModel);
         sentenceDetector = new SentenceDetectorME(sentenceModel);
         phraseChunker = new ChunkerME(chunkerModel);
-        
+        moneyFinder = new NameFinderME(moneyFinderModel);
+        colorFinder  = new NameFinderME(colorFinderModel);
+        brandFinder = new NameFinderME(brandFinderModel);
     }
     
     
@@ -100,10 +94,11 @@ public class OpenNLPUtil {
         InputStream sentenceModelStream = getInputStream("models/en-sent.bin");
         InputStream tokenizereModelStream = getInputStream("models/en-token.bin");
         InputStream nameFinderModelStream = getInputStream("models/en-ner-location.bin");
-        InputStream moneyFinderModelStream = getInputStream("models/en-ner-money.bin");
         InputStream partOfSpeechModelStream = getInputStream("models/en-pos-maxent.bin");
-        InputStream colorFinderModelStream =  getInputStream("cmodel/colorModel.bin");
         InputStream chunkerrModelStream =  getInputStream("models/en-chunker.bin");
+        InputStream moneyFinderModelStream = getInputStream("models/en-ner-money.bin");
+        InputStream colorFinderModelStream =  getInputStream("cmodel/colorModel.bin");
+        InputStream brandFinderModelStream =  getInputStream("brandmodel/brandModel.bin");
         
         sentenceModel = new SentenceModel(sentenceModelStream);;
         tokenizerModel = new TokenizerModel(tokenizereModelStream);
@@ -112,6 +107,7 @@ public class OpenNLPUtil {
         colorFinderModel = new TokenNameFinderModel(colorFinderModelStream);
         partOfSpeechModel = new POSModel(partOfSpeechModelStream);
         chunkerModel = new ChunkerModel(chunkerrModelStream);
+        brandFinderModel = new TokenNameFinderModel(brandFinderModelStream);
     }
 
     private InputStream getInputStream(String resource) throws FileNotFoundException  {
@@ -124,7 +120,7 @@ public class OpenNLPUtil {
 			System.out.println("Inside the Exception =" + "/" + resource);
 			inputS = getClass().getResourceAsStream("/" + resource);
 		}
-    	System.out.println(" Loaded files -- " +  inputS);
+    	System.out.println(" Loaded files -- " +  inputS + " - resource " + resource);
         return inputS;
     }
 
@@ -146,6 +142,15 @@ public class OpenNLPUtil {
     
     public double[] findColorProb(Span[] spans) {
         return colorFinder.probs(spans);
+    }
+    
+    
+    public Span[] findBrand(String[] tokens) {
+        return brandFinder.find(tokens);
+    }
+    
+    public double[] findBrandProb(Span[] spans) {
+        return brandFinder.probs(spans);
     }
     
     public Span[] findMoney(String[] tokens) {
