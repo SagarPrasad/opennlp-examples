@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" ng-app="listingApp">
+<head>
+  <meta charset="utf-8">
+  <title>Xi 2014 Demo App</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/controllers.js"></script>
+ 
+</head>
+
+<body>
+
+  <div id="header" class="clearfix">
+  	<div id="xiLogo" >
+    	<img src="opennlp.jpg" />
+    </div> 
+    <div id="ProductListCtrlWrap" >
+      	<div ng-controller="ProductListCtrl" id="ProductListCtrl">
+<!-- 	        <label for"selectFlow">flow: </label> -->
+<!-- 	        <select id="selectFlow" ng-model="flow" ng-selected="1"> -->
+<!-- 	          <option value="B">B</option> -->
+<!-- 	          <option value="C">C</option> -->
+<!-- 	          <option value="D">D</option> -->
+<!-- 	          <option value="E">E</option> -->
+<!-- 	        </select> -->
+	        <input type="text" size="30" ng-model="searchTerm" id="searchTerm" placeholder="type your search here ..." />
+	      	<a href='#/items?searchTerm={{searchTerm}}&flow={{flow}}' id="searchSubmit"></a>
+    	</div>
+    </div>
+  	<div id="sapeLogo" >
+	    <img src="solr.jpg" />
+	</div>
+  </div>
+
+  <div class="view-container">
+    <div ng-view class="view-frame"></div>
+  </div>
+  <div id="footer">
+    <p class="grey">You can view this application <a href="https://github.com/sagarprasad/opennlp-examples">here</a></p>
+  </div>
+</body>
+</html>

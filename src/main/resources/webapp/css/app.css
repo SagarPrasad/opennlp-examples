@@ -1,0 +1,213 @@
+/* app css stylesheet */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lfloat {
+  float: left;
+}
+.rfloat {
+  float: right;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+#header {
+	background: #000;
+	width: 100%;
+	margin-bottom: 30px;
+	padding: 10px;
+	display: table;
+}
+#header #xiLogo, #header #sapeLogo {
+	display: table-cell;
+	vertical-align: middle;
+}
+#header #sapeLogo {
+	float: right;
+}
+#ProductListCtrlWrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+#ProductListCtrl {
+  border: 2px solid #ccc;
+  background: #fff;
+  border-radius: 3px;
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+#ProductListCtrl input, #ProductListCtrl select {
+  margin: 0;
+  padding: 10px;
+}
+#ProductListCtrl label {
+  font-weight: bold;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+#ProductListCtrl select {
+  width: 70px;
+  border: none;
+  border-right: 1px solid #ccc;
+  display: inline-flex;
+}
+#ProductListCtrl input {
+  display: inline-block;
+  width: 275px;
+  border: none;
+}
+#searchSubmit {
+  background: url("../search-icon.png") no-repeat center center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+}
+#filterQuery {
+  padding: 14px;
+  border: none;
+  border-right: 1px solid #ccc;
+  border-radius: 2px;
+  width: 340px;
+}
+.view-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.view-container ul {
+  margin: 0;
+  padding: 0;
+}
+.view-container .option-bar {
+  border-bottom: 1px solid #ccc;
+}
+.option-bar p {
+  margin: 0;
+}
+.option-bar .results-disp {
+  margin: 11px 0;
+}
+.phone-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.item-listing {
+  border-top: 1px solid #ddd;
+  padding: 1em 0;
+}
+.item-listing:first-child {
+  border-top: none;
+}
+.items {
+  list-style: none;
+}
+.item-info {
+  margin-left: 130px;
+}
+.thumb {
+  float: left;
+  margin: 0 1em 0 0;
+  height: 100px;
+  width: 100px;
+}
+
+.thumb img {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ddd;
+}
+.blue {
+  color: #04ADEC;
+}
+.orange {
+  color: #E12427;
+}
+#footer {
+  padding: 30px 0;
+  text-align: center;
+  background: #eee;
+  margin: 40px 0 0 0;
+  border-top: 2px solid #555;
+}
+
+
+/** Detail View **/
+img.phone {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.phone:first-child {
+  display: block;
+}
+
+
+ul.phone-thumbs {
+  margin: 0;
+  list-style: none;
+}
+
+ul.phone-thumbs li {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+  background-color: white;
+}
+
+ul.phone-thumbs img {
+  height: 100px;
+  width: 100px;
+  padding: 1em;
+}
+
+ul.phone-thumbs img:hover {
+  cursor: pointer;
+}
+
+
+ul.specs {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.specs > li{
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
+
+ul.specs > li > span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul.specs dt {
+  font-weight: bold;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}

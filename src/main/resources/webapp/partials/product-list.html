@@ -1,0 +1,35 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 option-bar clearfix">
+			<p class="lfloat">
+				<label for="filterQuery" >filter: </label>
+				<input size="10" ng-model="query" id="filterQuery" placeholder="filter text here ...">
+			</p>
+			<p class="blue rfloat results-disp">
+				Search Results: {{itemCountMsg}}
+			</p>
+		</div>
+		<div class="col-md-12">
+			<!--Body content-->
+			<ul class="items">
+				<li ng-repeat="item in items | filter:query" class="item-listing clearfix">
+					<a href="{{item.url}}" class="thumb">
+						<img ng-src="{{item.imageUrl}}">
+					</a>
+					<div class="item-info">
+						<p class="orange"> Title: {{item.P_Title}} </p>
+
+						<strong>{{item.P_ItemPrimaryPromoMsgLong}} </strong>
+
+						<div ng-if="item.reviews.count != 0">
+							<p><strong>Price</strong>:{{item.P_OfferPrice}}</p>
+							<p><strong>Color</strong>:{{item.P_Color}}</p>
+							<p><strong>Brand</strong>:{{item.P_Brand}}</p>
+						</div>
+<!-- 					 	<p class="blue">Reviews Count : {{item.reviews.count}}</p> -->
+				 	</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
