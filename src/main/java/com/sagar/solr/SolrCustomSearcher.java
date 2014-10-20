@@ -33,7 +33,7 @@ public class SolrCustomSearcher {
 		// TODO Auto-generated method stub
 		HttpSolrServer solr = new HttpSolrServer("http://localhost:8983/solr/personalization");
 	    SolrQuery query = new SolrQuery();
-	    String queryString = "blue sweatert under 50$";
+	    String queryString = "Progear blue sweater under 20$";
 	    
 	   // query.addFilterQuery("cat:electronics","store:amazon.com");
 	    //query.setFields("id","price","merchant","cat","store");

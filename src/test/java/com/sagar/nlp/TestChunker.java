@@ -2,6 +2,7 @@ package com.sagar.nlp;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
@@ -20,8 +21,7 @@ import opennlp.tools.util.Span;
 
 public class TestChunker {
 	public static void main(String[] args) throws IOException {
-		POSModel model = new POSModelLoader()
-				.load(new File("models/en-pos-maxent.bin"));
+		POSModel model = new POSModelLoader().load(new File("src/main/resources/models/en-pos-maxent.bin"));
 		PerformanceMonitor perfMon = new PerformanceMonitor(System.err, "sent");
 		POSTaggerME tagger = new POSTaggerME(model);
 
@@ -49,7 +49,7 @@ public class TestChunker {
 		perfMon.stopAndPrintFinalResult();
 
 		// chunker
-		InputStream is = new FileInputStream("models/en-chunker.bin");
+		InputStream is = new FileInputStream("src/main/resources/models/en-chunker.bin");
 		ChunkerModel cModel = new ChunkerModel(is);
 
 		ChunkerME chunkerME = new ChunkerME(cModel);
@@ -77,4 +77,19 @@ public class TestChunker {
 			
 			
 	}
+	
+	
+	private InputStream getInputStream(String resource) throws FileNotFoundException  {
+    	// For local Eclipse
+    	InputStream inputS = null;
+    	try {
+			inputS = new FileInputStream(new File(resource));
+		} catch (Exception e) {
+			// For Jars in SOLR
+			System.out.println("Inside the Exception =" + "/" + resource);
+			inputS = getClass().getResourceAsStream("/" + resource);
+		}
+    	System.out.println(" Loaded files -- " +  inputS + " - resource " + resource);
+        return inputS;
+    }
 }
